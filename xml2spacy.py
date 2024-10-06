@@ -37,10 +37,6 @@ def xml_to_token_lists(path):
         yield [Token(token.text.strip(), token.tag) for token in doc]
 
 
-xml_path = "./data/train.xml"
-token_lists = list(xml_to_token_lists(xml_path))
-
-
 def tokens_to_doc(tokens: Iterable[Token], nlp: spacy.language.Language) -> Doc:
     tokens = list(tokens)
     doc = nlp.make_doc(" ".join(token.text for token in tokens))
