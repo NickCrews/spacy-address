@@ -1,5 +1,5 @@
 data
-output
+training
 packages
 .venv
 .python-version

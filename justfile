@@ -1,9 +1,9 @@
 train:
-    python -m spacy train config.cfg --output ./output --paths.train ./data/train.spacy --paths.dev ./data/test.spacy
+    python -m spacy train config.cfg --output ./training --paths.train ./data/train.spacy --paths.dev ./data/test.spacy
 
 # Convert the trained model to a python package
 package:
-    python -m spacy package output/model-best packages --build wheel --force
+    python -m spacy package training/model-best packages --build wheel --force
 
 # Publish the python package to GitHub releases
 release:
