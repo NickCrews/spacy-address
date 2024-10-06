@@ -33,6 +33,8 @@ for ent in doc.ents:
 # 99507-1234 ZipCode
 ```
 
+On my 2021 M1 Macbook Pro with 64GB of RAM, it takes ~2 seconds to parse 1000 addresses.
+
 ## Future Work
 
 - Currently the pipeline is based on the `en_core_web_lg` model. I want to make variations
