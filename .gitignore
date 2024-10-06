@@ -1,4 +1,5 @@
 data
 output
+packages
 .venv
 .python-version
