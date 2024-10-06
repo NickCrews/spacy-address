@@ -5,6 +5,8 @@ Use [spaCy](https://spacy.io/)'s NER pipeline to parse oneline US addresses
 Uses the the labeled data from [usaddress](https://github.com/datamade/usaddress)
 with spaCy's very easy [training infrastructure](https://spacy.io/usage/training)
 
+Inspired by the code and blog from https://github.com/swapnil-saxena/address-parser.
+
 ## Install
 
 I will try to improve the package name a bit, but here is something that currently works:
