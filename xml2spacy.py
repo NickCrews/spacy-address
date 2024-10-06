@@ -19,6 +19,7 @@ Raw data looks like:
 
 import argparse
 import xml.etree.ElementTree as ET
+from pathlib import Path
 from typing import Iterable, NamedTuple
 
 import spacy
@@ -63,6 +64,8 @@ def convert(input_path, output_path, *, model="en_core_web_trf"):
     token_lists = list(xml_to_token_lists(input_path))
     nlp = spacy.load(model)
     db = token_lists_to_docbin(token_lists, nlp)
+    output_path = Path(output_path)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     db.to_disk(output_path)
 
 
