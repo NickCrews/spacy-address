@@ -60,9 +60,9 @@ def token_lists_to_docbin(
     return DocBin(docs=[tokens_to_doc(tokens, nlp) for tokens in token_lists])
 
 
-def convert(input_path, output_path, *, model="en_core_web_trf"):
+def convert(input_path, output_path):
     token_lists = list(xml_to_token_lists(input_path))
-    nlp = spacy.load(model)
+    nlp = spacy.blank("en")
     db = token_lists_to_docbin(token_lists, nlp)
     output_path = Path(output_path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -73,9 +73,8 @@ def cli():
     parser = argparse.ArgumentParser()
     parser.add_argument("input_path")
     parser.add_argument("output_path")
-    parser.add_argument("--model", default="en_core_web_trf")
     args = parser.parse_args()
-    convert(args.input_path, args.output_path, model=args.model)
+    convert(args.input_path, args.output_path)
 
 
 if __name__ == "__main__":
