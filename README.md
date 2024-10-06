@@ -5,11 +5,6 @@ Use [spaCy](https://spacy.io/)'s NER pipeline to parse oneline US addresses
 Uses the the labeled data from [usaddress](https://github.com/datamade/usaddress)
 with spaCy's very easy [training infrastructure](https://spacy.io/usage/training)
 
-Still a work in progress. I've gotten `python -m spacy train` to run, and results
-look promising!
-
-![example usage](docs/example_labels.png)
-
 ## Install
 
 I will try to improve the package name a bit, but here is something that currently works:
