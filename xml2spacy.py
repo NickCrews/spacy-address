@@ -41,17 +41,41 @@ def xml_to_token_lists(path):
 def tokens_to_doc(tokens: Iterable[Token], nlp: spacy.language.Language) -> Doc:
     tokens = list(tokens)
     doc = nlp.make_doc(" ".join(token.text for token in tokens))
-    spans = list(tokens_to_spans(tokens, doc))
+    spans = list(tokens_to_entities(tokens, doc))
+    # print("==========")
+    # print(doc)
+    # for span in spans:
+    #     print(span, span.start, span.end, span.label_)
+    # print("==========")
     doc.ents = spans
     return doc
 
 
-def tokens_to_spans(tokens: Iterable[Token], doc: Doc) -> Iterable[Span]:
+def tokens_to_entities(tokens: Iterable[Token], doc: Doc) -> Iterable[Span]:
+    """Merge tokens into spans of the same label.
+
+    If consecutive tokens have the same label, they are merged into a single span.
+    Tokens can have trailing commas from the messy raw data, so we strip them from
+    the entity text.
+    """
     start = 0
+    text = ""
+    label = None
     for token in tokens:
-        end = start + len(token.text)
-        yield doc.char_span(start, end, label=token.label)
-        start = end + 1
+        if label is None:
+            label = token.label
+            text = token.text
+            continue
+        if token.label == label:
+            text += " " + token.text
+            continue
+        yield doc.char_span(start, start + len(text.removesuffix(",")), label=label)
+
+        start += len(text) + 1
+        label = token.label
+        text = token.text
+    if text:
+        yield doc.char_span(start, start + len(text.removesuffix(",")), label=label)
 
 
 def token_lists_to_docbin(

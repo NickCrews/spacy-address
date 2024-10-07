@@ -70,15 +70,15 @@ This uses the tags that the us postal service uses (need to track down the exact
 
 ## Future Work
 
-- Currently the pipeline is based on the `en_core_web_lg` model. I want to make variations
+[x] Currently the pipeline is based on the `en_core_web_lg` model. I want to make variations
   that are based on the `en_core_web_sm` for faster inference, and the `en_core_web_trf`
   for best performance
-- Currently, every token is parsed as a different entity. eg "Oklahoma City" is
+[x] Currently, every token is parsed as a different entity. eg "Oklahoma City" is
   really one entity, but it is getting parsed as two different ones.
   This is mostly a limitation of the data I used for training, which is
   on the per-token level and deosn't describe how tokens should be merged together,
   but I think with some preprocessing it should be fixable.
-- Improve the metadata that is included in the released packages.
+[ ] Improve the metadata that is included in the released packages.
   Something to do with the `meta.json` file that is used in the `spacy package` command?
 
 ## Licence
