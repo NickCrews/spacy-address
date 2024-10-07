@@ -1,15 +1,17 @@
-train:
+train model='sm':
     python xml2spacy.py data/train.xml data/train.spacy
     python xml2spacy.py data/test.xml data/test.spacy
-    python -m spacy train config.cfg --output ./training --paths.train ./data/train.spacy --paths.dev ./data/test.spacy
+    mkdir -p models/{{model}}/training
+    python -m spacy train models/{{model}}/config.cfg --output models/{{model}}/training --paths.train ./data/train.spacy --paths.dev ./data/test.spacy
 
 # Convert the trained model to a python package
-package:
-    python -m spacy package training/model-best packages --build wheel --force --name us_address_ner
+package model='sm' version='model-best':
+    mkdir -p models/{{model}}/package
+    python -m spacy package models/{{model}}/training/{{version}} models/{{model}}/package --build wheel --force --meta-path models/{{model}}/meta.json
 
 # Publish the python package to GitHub releases
-release:
-    gh release create $(date -u '+%Y%m%d-%H%M%S') packages/en_*/dist/*.whl --title "Release $(date -u '+%Y%m%d-%H%M%S')" --generate-notes
+release model='sm':
+    gh release create $(date -u '+%Y%m%d-%H%M%S') models/{{model}}/packages/en_*/dist/*.whl --title "Release $(date -u '+%Y%m%d-%H%M%S')" --generate-notes
 
 # Fetch the labeled XML data from the usaddress repository
 fetch-data:

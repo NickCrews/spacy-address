@@ -1,0 +1,10 @@
+{
+    "lang":"en",
+    "name":"us_address_ner_lg",
+    "version":"0.0.0",
+    "description":"A US Postal Address Named Entity Recognizer",
+    "author":"Nick Crews",
+    "email":"nicholas.b.crews@gmail.com",
+    "url":"https://github.com/NickCrews/spacy-address",
+    "license":"MIT"
+}
