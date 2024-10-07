@@ -11,7 +11,7 @@ package model='sm' version='model-best':
 
 # Publish the python package to GitHub releases
 release model='sm':
-    gh release create $(date -u '+%Y%m%d-%H%M%S') models/{{model}}/packages/en_*/dist/*.whl --title "Release $(date -u '+%Y%m%d-%H%M%S')" --generate-notes
+    gh release create $(date -u '+%Y%m%d-%H%M%S')-{{model}} models/{{model}}/package/*/dist/*.whl --title "Release $(date -u '+%Y%m%d-%H%M%S')-{{model}}" --notes-file models/{{model}}/package/*/README.md
 
 # Fetch the labeled XML data from the usaddress repository
 fetch-data:
