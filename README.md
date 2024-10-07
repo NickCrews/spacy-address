@@ -7,12 +7,39 @@ with spaCy's very easy [training infrastructure](https://spacy.io/usage/training
 
 Inspired by the code and blog from https://github.com/swapnil-saxena/address-parser.
 
-## Install
+## Usage
 
-I will try to improve the package name a bit, but here is something that currently works:
+There are currently two models, `en-us-address-ner-sm` and `en-us-address-ner-lg`,
+following the naming conventions for small and large that spaCy uses.
+
+### en-us-address-ner-sm
+
+You probably want this one. Much better efficiency for not much worse accuracy.
+
+As of 2024-10-06:
+
+- F1 score for NER of .978
+- model size of ~5MB
+- on my 2021 M1 MacBook Pro, tags 1000 addresses in ~.2 sec
+
+### en-us-address-ner-lg
+
+Much larger and slower, a little more accurate.
+
+As of 2024-10-06:
+
+- F1 score for NER of .982
+- model size of ~420MB
+- on my 2021 M1 MacBook Pro, tags 1000 addresses in ~2 sec
+
+You can find the released models in various [github releases](https://github.com/NickCrews/spacy-address/releases).
+There, you can see the most up to date model size and F1 score.
+The speed isn't reported anywhere easily, unfortunately.
+
+You can install from a release directly with pip:
 
 ```bash
-python -m pip install "en-us-address-ner @ https://github.com/NickCrews/spacy-address/releases/download/20241006-233052/en_us_address_ner-0.0.0-py3-none-any.whl"
+python -m pip install "en-us-address-ner-sm @ https://github.com/NickCrews/spacy-address/releases/download/20241007-072524-sm/en_us_address_ner_sm-0.0.0-py3-none-any.whl"
 ```
 
 Now, this is accessible from python:
@@ -20,24 +47,23 @@ Now, this is accessible from python:
 ```python
 import spacy
 
-nlp = spacy.load("en-us-address-ner")
-doc = nlp("123 E Elm st S,   Oklahoma City, OK 99507-1234")
+nlp = spacy.load("en-us-address-ner-sm")
+doc = nlp("CO John SMITH, 123 E St elias stree S,   Oklahoma City, OK 99507-1234")
 for ent in doc.ents:
-    print(ent.text, ent.label_)
-# 123 AddressNumber
-# E StreetNamePreDirectional
-# Elm StreetName
-# st StreetNamePostType
-# S, StreetNamePostDirectional
-# Oklahoma PlaceName             # nice, this is recognized as a place, not a state!
-# City, PlaceName
-# OK StateName
-# 99507-1234 ZipCode
+    print(f"{ent.text} ({ent.label_})")
+# CO John SMITH (Recipient)
+# 123 (AddressNumber)
+# E (StreetNamePreDirectional)
+# St elias (StreetName)            # St isn't confused as an abbreviation for street!
+# stree (StreetNamePostType)       # Typos are tagged correctly!
+# S (StreetNamePostDirectional)
+# Oklahoma City (PlaceName)        # Oklahoma isn't confused as a state!
+# OK (StateName)
+# 99507-1234 (ZipCode)
 ```
 
-On my 2021 M1 Macbook Pro with 64GB of RAM, it takes ~2 seconds to parse 1000 addresses.
-
-This uses the tags that the us postal service uses (need to track down the exact reference):
+This uses the tags from the
+"United States Thoroughfare, Landmark, and Postal Address Data Standard (Publication 28)":
 - AddressNumber
 - AddressNumberPrefix
 - AddressNumberSuffix
@@ -67,14 +93,6 @@ This uses the tags that the us postal service uses (need to track down the exact
 - USPSBoxType
 - ZipCode
 - ZipPlus
-
-## Future Work
-
-- Currently the pipeline is based on the `en_core_web_lg` model. I want to make variations
-  that are based on the `en_core_web_sm` for faster inference, and the `en_core_web_trf`
-  for best performance
-- Improve the metadata that is included in the released packages.
-  Something to do with the `meta.json` file that is used in the `spacy package` command?
 
 ## Licence
 
