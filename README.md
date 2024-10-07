@@ -12,7 +12,7 @@ Inspired by the code and blog from https://github.com/swapnil-saxena/address-par
 I will try to improve the package name a bit, but here is something that currently works:
 
 ```bash
-python -m pip install "en-pipeline @ https://github.com/NickCrews/spacy-address/releases/download/20241006-213351/en_pipeline-0.0.0-py3-none-any.whl"
+python -m pip install "en-us-address-ner @ https://github.com/NickCrews/spacy-address/releases/download/20241006-233052/en_us_address_ner-0.0.0-py3-none-any.whl"
 ```
 
 Now, this is accessible from python:
@@ -20,7 +20,7 @@ Now, this is accessible from python:
 ```python
 import spacy
 
-nlp = spacy.load("en_pipeline")
+nlp = spacy.load("en-us-address-ner")
 doc = nlp("123 E Elm st S,   Oklahoma City, OK 99507-1234")
 for ent in doc.ents:
     print(ent.text, ent.label_)
@@ -36,6 +36,37 @@ for ent in doc.ents:
 ```
 
 On my 2021 M1 Macbook Pro with 64GB of RAM, it takes ~2 seconds to parse 1000 addresses.
+
+This uses the tags that the us postal service uses (need to track down the exact reference):
+- AddressNumber
+- AddressNumberPrefix
+- AddressNumberSuffix
+- BuildingName
+- CornerOf
+- CountryName
+- IntersectionSeparator
+- LandmarkName
+- NotAddress
+- OccupancyIdentifier
+- OccupancyType
+- PlaceName
+- Recipient
+- StateName
+- StreetName
+- StreetNamePostDirectional
+- StreetNamePostModifier
+- StreetNamePostType
+- StreetNamePreDirectional
+- StreetNamePreModifier
+- StreetNamePreType
+- SubaddressIdentifier
+- SubaddressType
+- USPSBoxGroupID
+- USPSBoxGroupType
+- USPSBoxID
+- USPSBoxType
+- ZipCode
+- ZipPlus
 
 ## Future Work
 
