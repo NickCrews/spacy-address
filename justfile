@@ -18,3 +18,6 @@ fetch-data:
     curl https://raw.githubusercontent.com/datamade/usaddress/refs/heads/main/training/labeled.xml > data/train.xml
     curl https://raw.githubusercontent.com/datamade/usaddress/refs/heads/main/measure_performance/test_data/labeled.xml > data/test.xml
     curl https://raw.githubusercontent.com/EthanRBrown/rrad/refs/heads/master/addresses-us-1000.json > data/benchmark.json
+
+test *ARGS:
+    python -m pytest {{ARGS}}
