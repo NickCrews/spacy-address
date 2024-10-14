@@ -1,5 +1,14 @@
-"""The labels assigned to the tokens in the training data, and used for training the model."""
-# Some extra code that is included during the `spacy package` command.
+"""
+The labels assigned to the tokens. Follows the USPS Publication 28 guidelines.
+
+This module is accessed via the `labels` attribute on the package:
+
+Examples
+--------
+>>> import en_us_address_ner_sm
+>>> en_us_address_ner_sm.labels.AddressNumber
+'AddressNumber'
+"""
 
 AddressNumber = "AddressNumber"
 """e.g. "123" in "123 Main St"."""
