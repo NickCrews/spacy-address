@@ -63,36 +63,8 @@ for ent in doc.ents:
 ```
 
 This uses the tags from the
-"United States Thoroughfare, Landmark, and Postal Address Data Standard (Publication 28)":
-- AddressNumber
-- AddressNumberPrefix
-- AddressNumberSuffix
-- BuildingName
-- CornerOf
-- CountryName
-- IntersectionSeparator
-- LandmarkName
-- NotAddress
-- OccupancyIdentifier
-- OccupancyType
-- PlaceName
-- Recipient
-- StateName
-- StreetName
-- StreetNamePostDirectional
-- StreetNamePostModifier
-- StreetNamePostType
-- StreetNamePreDirectional
-- StreetNamePreModifier
-- StreetNamePreType
-- SubaddressIdentifier
-- SubaddressType
-- USPSBoxGroupID
-- USPSBoxGroupType
-- USPSBoxID
-- USPSBoxType
-- ZipCode
-- ZipPlus
+"United States Thoroughfare, Landmark, and Postal Address Data Standard (Publication 28)".
+See [labels.py](./labels.py) for details
 
 ## Licence
 
