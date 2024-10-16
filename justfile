@@ -1,8 +1,10 @@
+gpu := '-1'
+
 train model='sm':
     python xml2spacy.py data/train.xml data/train.spacy
     python xml2spacy.py data/test.xml data/test.spacy
     mkdir -p models/{{model}}/training
-    python -m spacy train models/{{model}}/config.cfg --output models/{{model}}/training --paths.train ./data/train.spacy --paths.dev ./data/test.spacy
+    python -m spacy train models/{{model}}/config.cfg --output models/{{model}}/training --paths.train ./data/train.spacy --paths.dev ./data/test.spacy  --gpu-id {{gpu}}
 
 # Convert the trained model to a python package
 package model='sm' version='model-best':
