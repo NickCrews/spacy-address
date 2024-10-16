@@ -15866,10 +15866,6 @@
         "label": "StreetNamePostType"
       },
       {
-        "text": "Route 776",
-        "label": "NotAddress"
-      },
-      {
         "text": "Englewood",
         "label": "PlaceName",
         "start": 31,
@@ -16630,10 +16626,6 @@
       {
         "text": "60674",
         "label": "ZipCode"
-      },
-      {
-        "text": "According to Internet:",
-        "label": "NotAddress"
       },
       {
         "text": "1",
@@ -24419,12 +24411,6 @@
     "text": "a St. Simons Island GA 31522",
     "ents": [
       {
-        "text": "a",
-        "label": "NotAddress",
-        "start": 0,
-        "end": 1
-      },
-      {
         "text": "St. Simons Island",
         "label": "PlaceName"
       },
@@ -24663,10 +24649,6 @@
       {
         "text": "Street",
         "label": "StreetNamePostType"
-      },
-      {
-        "text": "East Beach",
-        "label": "NotAddress"
       },
       {
         "text": "St. Simons Island",
@@ -25002,10 +24984,6 @@
       {
         "text": "road",
         "label": "StreetNamePostType"
-      },
-      {
-        "text": "(east side)",
-        "label": "NotAddress"
       },
       {
         "text": "2nd",
@@ -29334,10 +29312,6 @@
   {
     "text": "countermarsh- # 000000000286972200 p.o. box 659601 san antonio tx 78265",
     "ents": [
-      {
-        "text": "countermarsh- # 000000000286972200",
-        "label": "NotAddress"
-      },
       {
         "text": "p.o. box",
         "label": "USPSBoxType"
@@ -36155,7 +36129,7 @@
       },
       {
         "text": "ground lvl",
-        "label": "NotAddress"
+        "label": "SubaddressIdentifier"
       },
       {
         "text": "los angeles",
@@ -40436,10 +40410,6 @@
         "label": "StreetNamePreDirectional"
       },
       {
-        "text": "AND",
-        "label": "NotAddress"
-      },
-      {
         "text": "W",
         "label": "StreetNamePreDirectional"
       },
@@ -40471,10 +40441,6 @@
       {
         "text": "S",
         "label": "StreetNamePreDirectional"
-      },
-      {
-        "text": "AND",
-        "label": "NotAddress"
       },
       {
         "text": "W",

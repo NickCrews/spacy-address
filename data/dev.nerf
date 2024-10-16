@@ -2746,10 +2746,6 @@
         "label": "StreetNamePreDirectional"
       },
       {
-        "text": "AND",
-        "label": "NotAddress"
-      },
-      {
         "text": "W",
         "label": "StreetNamePreDirectional"
       },
