@@ -1,4 +1,5 @@
-gpu := '-1'
+# -1 to disable, eg `just gpu=-1 train`
+gpu := '0'
 
 train model='sm':
     python nerf.py data/train.nerf data/train.spacy
