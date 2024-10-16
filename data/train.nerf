@@ -614,7 +614,7 @@
       },
       {
         "text": "Al Highway",
-        "label": "StreetNamePostType"
+        "label": "StreetNamePreType"
       },
       {
         "text": "157",
@@ -1014,7 +1014,11 @@
         "label": "AddressNumber"
       },
       {
-        "text": "Old Number 6",
+        "text":"Old Number",
+        "label": "StreetNamePreModifier"
+      },
+      {
+        "text": "6",
         "label": "StreetName"
       },
       {
@@ -3805,7 +3809,7 @@
     ]
   },
   {
-    "text": "100 Century Center Ct., San Jose, CA 95112",
+    "text": "100 Century Center Ct., San Jose, CA. 95112",
     "ents": [
       {
         "text": "100",
@@ -3824,7 +3828,7 @@
         "label": "PlaceName"
       },
       {
-        "text": "CA",
+        "text": "CA.",
         "label": "StateName"
       },
       {
@@ -7328,12 +7332,8 @@
         "label": "StreetNamePreDirectional"
       },
       {
-        "text": "Old",
+        "text": "Old Orchard",
         "label": "StreetName"
-      },
-      {
-        "text": "Orchard",
-        "label": "StreetNamePostType"
       },
       {
         "text": "St. louis",
@@ -8187,7 +8187,7 @@
     ]
   },
   {
-    "text": "115 S. LaSalle 37th Flr, Chicago, IL 60603",
+    "text": "115 S. LaSalle 37th Flr, Chicago, IL. 60603",
     "ents": [
       {
         "text": "115",
@@ -8214,7 +8214,7 @@
         "label": "PlaceName"
       },
       {
-        "text": "IL",
+        "text": "IL.",
         "label": "StateName"
       },
       {
@@ -8760,7 +8760,7 @@
     ]
   },
   {
-    "text": "3101 W. Sherwin Ave., Chicago, IL 60645",
+    "text": "3101 W. Sherwin Ave., Chicago, il 60645",
     "ents": [
       {
         "text": "3101",
@@ -8783,7 +8783,7 @@
         "label": "PlaceName"
       },
       {
-        "text": "IL",
+        "text": "il",
         "label": "StateName"
       },
       {
@@ -8793,7 +8793,7 @@
     ]
   },
   {
-    "text": "353 N. Clark St., Chicago, IL 60654",
+    "text": "353 N. Clark St., Chicago, IL. 60654",
     "ents": [
       {
         "text": "353",
@@ -8816,7 +8816,7 @@
         "label": "PlaceName"
       },
       {
-        "text": "IL",
+        "text": "IL.",
         "label": "StateName"
       },
       {
@@ -11850,14 +11850,14 @@
     ]
   },
   {
-    "text": "1101 U.S. Highway No. 130 North",
+    "text": "1101 US Highway No. 130 North",
     "ents": [
       {
         "text": "1101",
         "label": "AddressNumber"
       },
       {
-        "text": "U.S. Highway",
+        "text": "US Highway",
         "label": "StreetNamePreType"
       },
       {
@@ -12306,7 +12306,7 @@
     ]
   },
   {
-    "text": "3813 1/2 Some Road, Los Angeles, CA",
+    "text": "3813 1/2 Some Road, Los Angeles, ca",
     "ents": [
       {
         "text": "3813",
@@ -12329,7 +12329,7 @@
         "label": "PlaceName"
       },
       {
-        "text": "CA",
+        "text": "ca",
         "label": "StateName"
       }
     ]
@@ -12408,8 +12408,12 @@
         "label": "StreetName"
       },
       {
-        "text": "Salt Lake City UT",
+        "text": "Salt Lake City",
         "label": "PlaceName"
+      },
+      {
+        "text": "UT",
+        "label": "StateName"
       }
     ]
   },
@@ -13437,7 +13441,11 @@
         "label": "AddressNumber"
       },
       {
-        "text": "Old Peachtree",
+        "text": "Old",
+        "label": "StreetNamePreModifier"
+      },
+      {
+        "text": "Peachtree",
         "label": "StreetName"
       },
       {
@@ -17887,18 +17895,18 @@
     ]
   },
   {
-    "text": "1713 West U.S. Hwy 50",
+    "text": "1713 west us hwy 50",
     "ents": [
       {
         "text": "1713",
         "label": "AddressNumber"
       },
       {
-        "text": "West",
+        "text": "west",
         "label": "StreetNamePreDirectional"
       },
       {
-        "text": "U.S. Hwy",
+        "text": "us hwy",
         "label": "StreetNamePreType"
       },
       {
@@ -18217,18 +18225,18 @@
     ]
   },
   {
-    "text": "31290 N. U.S. Hwy. 45",
+    "text": "31290 n. u.s. Hwy. 45",
     "ents": [
       {
         "text": "31290",
         "label": "AddressNumber"
       },
       {
-        "text": "N.",
+        "text": "n.",
         "label": "StreetNamePreDirectional"
       },
       {
-        "text": "U.S. Hwy.",
+        "text": "u.s. Hwy.",
         "label": "StreetNamePreType"
       },
       {
@@ -20813,14 +20821,14 @@
     ]
   },
   {
-    "text": "500 us 19 clearwater fl",
+    "text": "500 u.s. 19 clearwater fl",
     "ents": [
       {
         "text": "500",
         "label": "AddressNumber"
       },
       {
-        "text": "us",
+        "text": "u.s.",
         "label": "StreetNamePreType"
       },
       {
@@ -22468,6 +22476,35 @@
       },
       {
         "text": "Ln",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Cedar Rapids",
+        "label": "PlaceName"
+      },
+      {
+        "text": "IA",
+        "label": "StateName"
+      },
+      {
+        "text": "52404",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "6008 Old Bridge Rd Cedar Rapids IA 52404",
+    "ents": [
+      {
+        "text": "6008",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Old Bridge",
+        "label": "StreetName"
+      },
+      {
+        "text": "Rd",
         "label": "StreetNamePostType"
       },
       {
@@ -30118,14 +30155,14 @@
     ]
   },
   {
-    "text": "36625 us highway 19 n palm harbor fl 34684-1228",
+    "text": "36625 u.s. highway 19 n palm harbor fl 34684-1228",
     "ents": [
       {
         "text": "36625",
         "label": "AddressNumber"
       },
       {
-        "text": "us highway",
+        "text": "u.s. highway",
         "label": "StreetNamePreType"
       },
       {
@@ -42188,6 +42225,35 @@
       },
       {
         "text": "53037",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "534 country estate, cliffside heights, nc 28043",
+    "ents": [
+      {
+        "text": "534",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "country",
+        "label": "StreetName"
+      },
+      {
+        "text": "estate",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "cliffside heights",
+        "label": "PlaceName"
+      },
+      {
+        "text": "nc",
+        "label": "StateName"
+      },
+      {
+        "text": "28043",
         "label": "ZipCode"
       }
     ]
