@@ -1,0 +1,3119 @@
+[
+  {
+    "text": "431 Marietta St NW Fl. 3",
+    "ents": [
+      {
+        "text": "431",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Marietta",
+        "label": "StreetName"
+      },
+      {
+        "text": "St",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "NW",
+        "label": "StreetNamePostDirectional"
+      },
+      {
+        "text": "Fl.",
+        "label": "OccupancyType"
+      },
+      {
+        "text": "3",
+        "label": "OccupancyIdentifier",
+        "start": 23,
+        "end": 24
+      }
+    ]
+  },
+  {
+    "text": "1234 West U.S. Hwy 50",
+    "ents": [
+      {
+        "text": "1234",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "West",
+        "label": "StreetNamePreDirectional"
+      },
+      {
+        "text": "U.S. Hwy",
+        "label": "StreetNamePreType"
+      },
+      {
+        "text": "50",
+        "label": "StreetName"
+      }
+    ]
+  },
+  {
+    "text": "1234 S Martin Luther King Dr Chicago, IL 60637",
+    "ents": [
+      {
+        "text": "1234",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "S",
+        "label": "StreetNamePreDirectional"
+      },
+      {
+        "text": "Martin Luther King",
+        "label": "StreetName"
+      },
+      {
+        "text": "Dr",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Chicago",
+        "label": "PlaceName"
+      },
+      {
+        "text": "IL",
+        "label": "StateName"
+      },
+      {
+        "text": "60637",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "Apt 1B 626 E Kilbourn Ave Milwaukee, WI 53202",
+    "ents": [
+      {
+        "text": "Apt",
+        "label": "OccupancyType"
+      },
+      {
+        "text": "1B",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "626",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "E",
+        "label": "StreetNamePreDirectional"
+      },
+      {
+        "text": "Kilbourn",
+        "label": "StreetName"
+      },
+      {
+        "text": "Ave",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Milwaukee",
+        "label": "PlaceName"
+      },
+      {
+        "text": "WI",
+        "label": "StateName"
+      },
+      {
+        "text": "53202",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "P.O. Box 123456",
+    "ents": [
+      {
+        "text": "P.O. Box",
+        "label": "USPSBoxType"
+      },
+      {
+        "text": "123456",
+        "label": "USPSBoxID"
+      }
+    ]
+  },
+  {
+    "text": "N165 W2123 Tartan Ct Jackson, WI 53037",
+    "ents": [
+      {
+        "text": "N165 W2123",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Tartan",
+        "label": "StreetName"
+      },
+      {
+        "text": "Ct",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Jackson",
+        "label": "PlaceName"
+      },
+      {
+        "text": "WI",
+        "label": "StateName"
+      },
+      {
+        "text": "53037",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "Box 123456",
+    "ents": [
+      {
+        "text": "Box",
+        "label": "USPSBoxType"
+      },
+      {
+        "text": "123456",
+        "label": "USPSBoxID"
+      }
+    ]
+  },
+  {
+    "text": "1234 W US Highway 50",
+    "ents": [
+      {
+        "text": "1234",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "W",
+        "label": "StreetNamePreDirectional"
+      },
+      {
+        "text": "US Highway",
+        "label": "StreetNamePreType"
+      },
+      {
+        "text": "50",
+        "label": "StreetName"
+      }
+    ]
+  },
+  {
+    "text": "1234 West U.S. Highway 50",
+    "ents": [
+      {
+        "text": "1234",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "West",
+        "label": "StreetNamePreDirectional"
+      },
+      {
+        "text": "U.S. Highway",
+        "label": "StreetNamePreType"
+      },
+      {
+        "text": "50",
+        "label": "StreetName"
+      }
+    ]
+  },
+  {
+    "text": "2002 FM 544 Wylie, TX 75098",
+    "ents": [
+      {
+        "text": "2002",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "FM",
+        "label": "StreetNamePreType"
+      },
+      {
+        "text": "544",
+        "label": "StreetName"
+      },
+      {
+        "text": "Wylie",
+        "label": "PlaceName"
+      },
+      {
+        "text": "TX",
+        "label": "StateName"
+      },
+      {
+        "text": "75098",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "519 PR 462 Leonard, TX 75452",
+    "ents": [
+      {
+        "text": "519",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "PR",
+        "label": "StreetNamePreType"
+      },
+      {
+        "text": "462",
+        "label": "StreetName"
+      },
+      {
+        "text": "Leonard",
+        "label": "PlaceName"
+      },
+      {
+        "text": "TX",
+        "label": "StateName"
+      },
+      {
+        "text": "75452",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "431 Marietta St NW Room 303",
+    "ents": [
+      {
+        "text": "431",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Marietta",
+        "label": "StreetName"
+      },
+      {
+        "text": "St",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "NW",
+        "label": "StreetNamePostDirectional"
+      },
+      {
+        "text": "Room",
+        "label": "OccupancyType"
+      },
+      {
+        "text": "303",
+        "label": "OccupancyIdentifier"
+      }
+    ]
+  },
+  {
+    "text": "20 Benton Pl St Louis, MO 63104",
+    "ents": [
+      {
+        "text": "20",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Benton",
+        "label": "StreetName"
+      },
+      {
+        "text": "Pl",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "St Louis",
+        "label": "PlaceName"
+      },
+      {
+        "text": "MO",
+        "label": "StateName"
+      },
+      {
+        "text": "63104",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "431 Marietta St NW Floor 3",
+    "ents": [
+      {
+        "text": "431",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Marietta",
+        "label": "StreetName"
+      },
+      {
+        "text": "St",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "NW",
+        "label": "StreetNamePostDirectional"
+      },
+      {
+        "text": "Floor",
+        "label": "OccupancyType"
+      },
+      {
+        "text": "3",
+        "label": "OccupancyIdentifier",
+        "start": 25,
+        "end": 26
+      }
+    ]
+  },
+  {
+    "text": "271 spring st nw attn: regus",
+    "ents": [
+      {
+        "text": "271",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "spring",
+        "label": "StreetName"
+      },
+      {
+        "text": "st",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "nw",
+        "label": "StreetNamePostDirectional"
+      },
+      {
+        "text": "attn: regus",
+        "label": "Recipient"
+      }
+    ]
+  },
+  {
+    "text": "120 N. Michigan Ave. Ste 1605, Chicago, IL 60601",
+    "ents": [
+      {
+        "text": "120",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "N.",
+        "label": "StreetNamePreDirectional"
+      },
+      {
+        "text": "Michigan",
+        "label": "StreetName"
+      },
+      {
+        "text": "Ave.",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Ste",
+        "label": "OccupancyType"
+      },
+      {
+        "text": "1605",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "Chicago",
+        "label": "PlaceName"
+      },
+      {
+        "text": "IL",
+        "label": "StateName"
+      },
+      {
+        "text": "60601",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "1234 W US Hwy 50",
+    "ents": [
+      {
+        "text": "1234",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "W",
+        "label": "StreetNamePreDirectional"
+      },
+      {
+        "text": "US Hwy",
+        "label": "StreetNamePreType"
+      },
+      {
+        "text": "50",
+        "label": "StreetName"
+      }
+    ]
+  },
+  {
+    "text": "1234 West US Hwy 50",
+    "ents": [
+      {
+        "text": "1234",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "West",
+        "label": "StreetNamePreDirectional"
+      },
+      {
+        "text": "US Hwy",
+        "label": "StreetNamePreType"
+      },
+      {
+        "text": "50",
+        "label": "StreetName"
+      }
+    ]
+  },
+  {
+    "text": "1234 West US Highway 50",
+    "ents": [
+      {
+        "text": "1234",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "West",
+        "label": "StreetNamePreDirectional"
+      },
+      {
+        "text": "US Highway",
+        "label": "StreetNamePreType"
+      },
+      {
+        "text": "50",
+        "label": "StreetName"
+      }
+    ]
+  },
+  {
+    "text": "Box # 123456",
+    "ents": [
+      {
+        "text": "Box",
+        "label": "USPSBoxType"
+      },
+      {
+        "text": "# 123456",
+        "label": "USPSBoxID"
+      }
+    ]
+  },
+  {
+    "text": "431 Marietta St NW 3rd Floor",
+    "ents": [
+      {
+        "text": "431",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Marietta",
+        "label": "StreetName"
+      },
+      {
+        "text": "St",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "NW",
+        "label": "StreetNamePostDirectional"
+      },
+      {
+        "text": "3rd",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "Floor",
+        "label": "OccupancyType"
+      }
+    ]
+  },
+  {
+    "text": "232 Dubei Ct Salt Lake City UT 84111",
+    "ents": [
+      {
+        "text": "232",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Dubei",
+        "label": "StreetName"
+      },
+      {
+        "text": "Ct",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Salt Lake City",
+        "label": "PlaceName"
+      },
+      {
+        "text": "UT",
+        "label": "StateName"
+      },
+      {
+        "text": "84111",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "123 W Hastings St 123456789",
+    "ents": [
+      {
+        "text": "123",
+        "label": "AddressNumber",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "text": "W",
+        "label": "StreetNamePreDirectional"
+      },
+      {
+        "text": "Hastings",
+        "label": "StreetName"
+      },
+      {
+        "text": "St",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "123456789",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "PO Box 123456",
+    "ents": [
+      {
+        "text": "PO Box",
+        "label": "USPSBoxType"
+      },
+      {
+        "text": "123456",
+        "label": "USPSBoxID"
+      }
+    ]
+  },
+  {
+    "text": "CORPORATE TRAVEL MICHAEL A CASOLO ATTN SHELIA LEWIS 77 w WACKER DR SUITE 1800 CHICAGO IL 60601",
+    "ents": [
+      {
+        "text": "CORPORATE TRAVEL MICHAEL A CASOLO ATTN SHELIA LEWIS",
+        "label": "Recipient"
+      },
+      {
+        "text": "77",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "w",
+        "label": "StreetNamePreDirectional"
+      },
+      {
+        "text": "WACKER",
+        "label": "StreetName"
+      },
+      {
+        "text": "DR",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "SUITE",
+        "label": "OccupancyType"
+      },
+      {
+        "text": "1800",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "CHICAGO",
+        "label": "PlaceName"
+      },
+      {
+        "text": "IL",
+        "label": "StateName"
+      },
+      {
+        "text": "60601",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "MARTIN DAVIS SOS SECURITY IL CHICAGO BRANCH 30 S WACKER DR STE 2200 CHICAGO IL 60606",
+    "ents": [
+      {
+        "text": "MARTIN DAVIS SOS SECURITY IL CHICAGO BRANCH",
+        "label": "Recipient"
+      },
+      {
+        "text": "30",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "S",
+        "label": "StreetNamePreDirectional",
+        "start": 47,
+        "end": 48
+      },
+      {
+        "text": "WACKER",
+        "label": "StreetName"
+      },
+      {
+        "text": "DR",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "STE",
+        "label": "OccupancyType"
+      },
+      {
+        "text": "2200",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "CHICAGO",
+        "label": "PlaceName",
+        "start": 68,
+        "end": 75
+      },
+      {
+        "text": "IL",
+        "label": "StateName",
+        "start": 76,
+        "end": 78
+      },
+      {
+        "text": "60606",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "Zendesk Christian Golding 1019 Market St San Francisco CA 94103",
+    "ents": [
+      {
+        "text": "Zendesk Christian Golding",
+        "label": "Recipient"
+      },
+      {
+        "text": "1019",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Market",
+        "label": "StreetName"
+      },
+      {
+        "text": "St",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "San Francisco",
+        "label": "PlaceName"
+      },
+      {
+        "text": "CA",
+        "label": "StateName"
+      },
+      {
+        "text": "94103",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "LEXI HAGENSON 860 w Blackhawk 305 CHICAGO ll. 60642\u20142534",
+    "ents": [
+      {
+        "text": "LEXI HAGENSON",
+        "label": "Recipient"
+      },
+      {
+        "text": "860",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "w",
+        "label": "StreetNamePreDirectional",
+        "start": 18,
+        "end": 19
+      },
+      {
+        "text": "Blackhawk",
+        "label": "StreetName"
+      },
+      {
+        "text": "305",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "CHICAGO",
+        "label": "PlaceName"
+      },
+      {
+        "text": "ll.",
+        "label": "StateName"
+      },
+      {
+        "text": "60642\u20142534",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "Erin Johnson c/o DTZ Suite 1800 77 W Wacker Dr Chicago, IL 606001",
+    "ents": [
+      {
+        "text": "Erin Johnson c/o DTZ",
+        "label": "Recipient"
+      },
+      {
+        "text": "Suite",
+        "label": "OccupancyType"
+      },
+      {
+        "text": "1800",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "77",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "W",
+        "label": "StreetNamePreDirectional",
+        "start": 35,
+        "end": 36
+      },
+      {
+        "text": "Wacker",
+        "label": "StreetName"
+      },
+      {
+        "text": "Dr",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Chicago",
+        "label": "PlaceName"
+      },
+      {
+        "text": "IL",
+        "label": "StateName"
+      },
+      {
+        "text": "606001",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "100 Gold Street, 2nd Fl., New York, NY 10038",
+    "ents": [
+      {
+        "text": "100",
+        "label": "AddressNumber",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "text": "Gold",
+        "label": "StreetName"
+      },
+      {
+        "text": "Street",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "2nd",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "Fl.",
+        "label": "OccupancyType"
+      },
+      {
+        "text": "New York",
+        "label": "PlaceName"
+      },
+      {
+        "text": "NY",
+        "label": "StateName"
+      },
+      {
+        "text": "10038",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "59-17 Junction Boulevard, 17th Floor Conference Room, Flushing, New York",
+    "ents": [
+      {
+        "text": "59-17",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Junction",
+        "label": "StreetName"
+      },
+      {
+        "text": "Boulevard",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "17th",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "Floor Conference Room",
+        "label": "OccupancyType"
+      },
+      {
+        "text": "Flushing",
+        "label": "PlaceName"
+      },
+      {
+        "text": "New York",
+        "label": "StateName"
+      }
+    ]
+  },
+  {
+    "text": "830 Fifth Avenue, Room 313, New York, NY 10065",
+    "ents": [
+      {
+        "text": "830",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Fifth",
+        "label": "StreetName"
+      },
+      {
+        "text": "Avenue",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Room",
+        "label": "OccupancyType"
+      },
+      {
+        "text": "313",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "New York",
+        "label": "PlaceName"
+      },
+      {
+        "text": "NY",
+        "label": "StateName"
+      },
+      {
+        "text": "10065",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "10 Country Road 3668 Splendora TX 77372",
+    "ents": [
+      {
+        "text": "10",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Country Road",
+        "label": "StreetNamePreType"
+      },
+      {
+        "text": "3668",
+        "label": "StreetName"
+      },
+      {
+        "text": "Splendora",
+        "label": "PlaceName"
+      },
+      {
+        "text": "TX",
+        "label": "StateName"
+      },
+      {
+        "text": "77372",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "1954 Country Road 43 Greenville TX 75401",
+    "ents": [
+      {
+        "text": "1954",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Country Road",
+        "label": "StreetNamePreType"
+      },
+      {
+        "text": "43",
+        "label": "StreetName"
+      },
+      {
+        "text": "Greenville",
+        "label": "PlaceName"
+      },
+      {
+        "text": "TX",
+        "label": "StateName"
+      },
+      {
+        "text": "75401",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "3419 SAINT JOHN W ST",
+    "ents": [
+      {
+        "text": "3419",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "SAINT JOHN",
+        "label": "StreetName"
+      },
+      {
+        "text": "W",
+        "label": "StreetNamePostDirectional"
+      },
+      {
+        "text": "ST",
+        "label": "StreetNamePostType"
+      }
+    ]
+  },
+  {
+    "text": "3301 NEW MEXICO NW AV",
+    "ents": [
+      {
+        "text": "3301",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "NEW MEXICO",
+        "label": "StreetName"
+      },
+      {
+        "text": "NW",
+        "label": "StreetNamePostDirectional"
+      },
+      {
+        "text": "AV",
+        "label": "StreetNamePostType"
+      }
+    ]
+  },
+  {
+    "text": "2802 BALLAST PT W BLVD",
+    "ents": [
+      {
+        "text": "2802",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "BALLAST PT",
+        "label": "StreetName"
+      },
+      {
+        "text": "W",
+        "label": "StreetNamePostDirectional"
+      },
+      {
+        "text": "BLVD",
+        "label": "StreetNamePostType"
+      }
+    ]
+  },
+  {
+    "text": "2350 WASHINGTON NE PL",
+    "ents": [
+      {
+        "text": "2350",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "WASHINGTON",
+        "label": "StreetName"
+      },
+      {
+        "text": "NE",
+        "label": "StreetNamePostDirectional"
+      },
+      {
+        "text": "PL",
+        "label": "StreetNamePostType"
+      }
+    ]
+  },
+  {
+    "text": "10 POLLY DRUMMOND CTR",
+    "ents": [
+      {
+        "text": "10",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "POLLY DRUMMOND",
+        "label": "StreetName"
+      },
+      {
+        "text": "CTR",
+        "label": "StreetNamePostType"
+      }
+    ]
+  },
+  {
+    "text": "PO Box 9580 Rancho Santa Fe CA 92067",
+    "ents": [
+      {
+        "text": "PO Box",
+        "label": "USPSBoxType"
+      },
+      {
+        "text": "9580",
+        "label": "USPSBoxID"
+      },
+      {
+        "text": "Rancho Santa Fe",
+        "label": "PlaceName"
+      },
+      {
+        "text": "CA",
+        "label": "StateName"
+      },
+      {
+        "text": "92067",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "123 E Marcy St Ste 201 Santa Fe NM 87501",
+    "ents": [
+      {
+        "text": "123",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "E",
+        "label": "StreetNamePreDirectional"
+      },
+      {
+        "text": "Marcy",
+        "label": "StreetName"
+      },
+      {
+        "text": "St",
+        "label": "StreetNamePostType",
+        "start": 12,
+        "end": 14
+      },
+      {
+        "text": "Ste",
+        "label": "OccupancyType"
+      },
+      {
+        "text": "201",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "Santa Fe",
+        "label": "PlaceName"
+      },
+      {
+        "text": "NM",
+        "label": "StateName"
+      },
+      {
+        "text": "87501",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "130 Grant Ave Ste 203 Santa Fe NM 87501",
+    "ents": [
+      {
+        "text": "130",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Grant",
+        "label": "StreetName"
+      },
+      {
+        "text": "Ave",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Ste",
+        "label": "OccupancyType"
+      },
+      {
+        "text": "203",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "Santa Fe",
+        "label": "PlaceName"
+      },
+      {
+        "text": "NM",
+        "label": "StateName"
+      },
+      {
+        "text": "87501",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "12631 Imperial Hgwy Santa Fe CA 90670",
+    "ents": [
+      {
+        "text": "12631",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Imperial",
+        "label": "StreetName"
+      },
+      {
+        "text": "Hgwy",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Santa Fe",
+        "label": "PlaceName"
+      },
+      {
+        "text": "CA",
+        "label": "StateName"
+      },
+      {
+        "text": "90670",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "1000 Cordova Place, # 234 Santa Fe NM 87505",
+    "ents": [
+      {
+        "text": "1000",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Cordova",
+        "label": "StreetName"
+      },
+      {
+        "text": "Place",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "# 234",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "Santa Fe",
+        "label": "PlaceName"
+      },
+      {
+        "text": "NM",
+        "label": "StateName"
+      },
+      {
+        "text": "87505",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "12145 NW Grand Ave El Mirage, AZ 85335",
+    "ents": [
+      {
+        "text": "12145",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "NW",
+        "label": "StreetNamePreDirectional"
+      },
+      {
+        "text": "Grand",
+        "label": "StreetName"
+      },
+      {
+        "text": "Ave",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "El Mirage",
+        "label": "PlaceName"
+      },
+      {
+        "text": "AZ",
+        "label": "StateName"
+      },
+      {
+        "text": "85335",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "church street station po box 6793 new york ny 10249",
+    "ents": [
+      {
+        "text": "church street station",
+        "label": "BuildingName"
+      },
+      {
+        "text": "po box",
+        "label": "USPSBoxType"
+      },
+      {
+        "text": "6793",
+        "label": "USPSBoxID"
+      },
+      {
+        "text": "new york",
+        "label": "PlaceName"
+      },
+      {
+        "text": "ny",
+        "label": "StateName"
+      },
+      {
+        "text": "10249",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "mail code 5021 p o box 660367 dallas tx 75266",
+    "ents": [
+      {
+        "text": "mail code",
+        "label": "SubaddressType"
+      },
+      {
+        "text": "5021",
+        "label": "SubaddressIdentifier"
+      },
+      {
+        "text": "p o box",
+        "label": "USPSBoxType"
+      },
+      {
+        "text": "660367",
+        "label": "USPSBoxID"
+      },
+      {
+        "text": "dallas",
+        "label": "PlaceName"
+      },
+      {
+        "text": "tx",
+        "label": "StateName"
+      },
+      {
+        "text": "75266",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "rr # 1 box 54 loami il 62661",
+    "ents": [
+      {
+        "text": "rr",
+        "label": "USPSBoxGroupType"
+      },
+      {
+        "text": "# 1",
+        "label": "USPSBoxGroupID"
+      },
+      {
+        "text": "box",
+        "label": "USPSBoxType"
+      },
+      {
+        "text": "54",
+        "label": "USPSBoxID"
+      },
+      {
+        "text": "loami",
+        "label": "PlaceName"
+      },
+      {
+        "text": "il",
+        "label": "StateName"
+      },
+      {
+        "text": "62661",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "1555 palm beach lakes blvd. ste. 406 w. palm beach fl 33401",
+    "ents": [
+      {
+        "text": "1555",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "palm beach lakes",
+        "label": "StreetName"
+      },
+      {
+        "text": "blvd.",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "ste.",
+        "label": "OccupancyType"
+      },
+      {
+        "text": "406",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "w. palm beach",
+        "label": "PlaceName"
+      },
+      {
+        "text": "fl",
+        "label": "StateName"
+      },
+      {
+        "text": "33401",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "2100 n. florida mango rd. w. palm beach fl 33409",
+    "ents": [
+      {
+        "text": "2100",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "n.",
+        "label": "StreetNamePreDirectional"
+      },
+      {
+        "text": "florida mango",
+        "label": "StreetName"
+      },
+      {
+        "text": "rd.",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "w. palm beach",
+        "label": "PlaceName"
+      },
+      {
+        "text": "fl",
+        "label": "StateName",
+        "start": 40,
+        "end": 42
+      },
+      {
+        "text": "33409",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "rr # 3 box 212 mcleansboro il 62859",
+    "ents": [
+      {
+        "text": "rr",
+        "label": "USPSBoxGroupType"
+      },
+      {
+        "text": "# 3",
+        "label": "USPSBoxGroupID"
+      },
+      {
+        "text": "box",
+        "label": "USPSBoxType"
+      },
+      {
+        "text": "212",
+        "label": "USPSBoxID"
+      },
+      {
+        "text": "mcleansboro",
+        "label": "PlaceName"
+      },
+      {
+        "text": "il",
+        "label": "StateName"
+      },
+      {
+        "text": "62859",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "16781 chagrin blvd # 124 shaker heights oh 44120-3721",
+    "ents": [
+      {
+        "text": "16781",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "chagrin",
+        "label": "StreetName"
+      },
+      {
+        "text": "blvd",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "# 124",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "shaker heights",
+        "label": "PlaceName"
+      },
+      {
+        "text": "oh",
+        "label": "StateName"
+      },
+      {
+        "text": "44120-3721",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "3121 187th street crt n east moline il 61244",
+    "ents": [
+      {
+        "text": "3121",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "187th street",
+        "label": "StreetName"
+      },
+      {
+        "text": "crt",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "n",
+        "label": "StreetNamePostDirectional",
+        "start": 22,
+        "end": 23
+      },
+      {
+        "text": "east moline",
+        "label": "PlaceName"
+      },
+      {
+        "text": "il",
+        "label": "StateName"
+      },
+      {
+        "text": "61244",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "bin # 11 p o box 9201 minneapolis mn 55480",
+    "ents": [
+      {
+        "text": "bin",
+        "label": "SubaddressType"
+      },
+      {
+        "text": "# 11",
+        "label": "SubaddressIdentifier"
+      },
+      {
+        "text": "p o box",
+        "label": "USPSBoxType"
+      },
+      {
+        "text": "9201",
+        "label": "USPSBoxID"
+      },
+      {
+        "text": "minneapolis",
+        "label": "PlaceName"
+      },
+      {
+        "text": "mn",
+        "label": "StateName"
+      },
+      {
+        "text": "55480",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "dept 3234 p o box 123234 dallas tx 75312",
+    "ents": [
+      {
+        "text": "dept",
+        "label": "SubaddressType"
+      },
+      {
+        "text": "3234",
+        "label": "SubaddressIdentifier",
+        "start": 5,
+        "end": 9
+      },
+      {
+        "text": "p o box",
+        "label": "USPSBoxType"
+      },
+      {
+        "text": "123234",
+        "label": "USPSBoxID"
+      },
+      {
+        "text": "dallas",
+        "label": "PlaceName"
+      },
+      {
+        "text": "tx",
+        "label": "StateName"
+      },
+      {
+        "text": "75312",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "18530 mack ave # 445 grosse pointe farms mi 48236-3254",
+    "ents": [
+      {
+        "text": "18530",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "mack",
+        "label": "StreetName"
+      },
+      {
+        "text": "ave",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "# 445",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "grosse pointe farms",
+        "label": "PlaceName"
+      },
+      {
+        "text": "mi",
+        "label": "StateName"
+      },
+      {
+        "text": "48236-3254",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "1122 2nd st n saint petersburg fl 33701-1710",
+    "ents": [
+      {
+        "text": "1122",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "2nd",
+        "label": "StreetName"
+      },
+      {
+        "text": "st",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "n",
+        "label": "StreetNamePostDirectional",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "text": "saint petersburg",
+        "label": "PlaceName"
+      },
+      {
+        "text": "fl",
+        "label": "StateName"
+      },
+      {
+        "text": "33701-1710",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "file 74155 po box 60000 san francisco ca 94160",
+    "ents": [
+      {
+        "text": "file",
+        "label": "SubaddressType"
+      },
+      {
+        "text": "74155",
+        "label": "SubaddressIdentifier"
+      },
+      {
+        "text": "po box",
+        "label": "USPSBoxType"
+      },
+      {
+        "text": "60000",
+        "label": "USPSBoxID"
+      },
+      {
+        "text": "san francisco",
+        "label": "PlaceName"
+      },
+      {
+        "text": "ca",
+        "label": "StateName"
+      },
+      {
+        "text": "94160",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "10502 shadow ridge ln apt 103 louisville ky",
+    "ents": [
+      {
+        "text": "10502",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "shadow ridge",
+        "label": "StreetName"
+      },
+      {
+        "text": "ln",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "apt",
+        "label": "OccupancyType"
+      },
+      {
+        "text": "103",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "louisville",
+        "label": "PlaceName"
+      },
+      {
+        "text": "ky",
+        "label": "StateName"
+      }
+    ]
+  },
+  {
+    "text": "msc 410833 p.o. box 415000 nashville tn 37241",
+    "ents": [
+      {
+        "text": "msc",
+        "label": "SubaddressType"
+      },
+      {
+        "text": "410833",
+        "label": "SubaddressIdentifier"
+      },
+      {
+        "text": "p.o. box",
+        "label": "USPSBoxType"
+      },
+      {
+        "text": "415000",
+        "label": "USPSBoxID"
+      },
+      {
+        "text": "nashville",
+        "label": "PlaceName"
+      },
+      {
+        "text": "tn",
+        "label": "StateName"
+      },
+      {
+        "text": "37241",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "customer # 55-0044943 lock box 427 jamison pa 18929",
+    "ents": [
+      {
+        "text": "customer # 55-0044943",
+        "label": "Recipient"
+      },
+      {
+        "text": "lock box",
+        "label": "USPSBoxType"
+      },
+      {
+        "text": "427",
+        "label": "USPSBoxID"
+      },
+      {
+        "text": "jamison",
+        "label": "PlaceName"
+      },
+      {
+        "text": "pa",
+        "label": "StateName"
+      },
+      {
+        "text": "18929",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "2207 d gault ave n ft payne al 35967",
+    "ents": [
+      {
+        "text": "2207",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "d gault",
+        "label": "StreetName"
+      },
+      {
+        "text": "ave",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "n",
+        "label": "StreetNamePostDirectional",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "text": "ft payne",
+        "label": "PlaceName"
+      },
+      {
+        "text": "al",
+        "label": "StateName"
+      },
+      {
+        "text": "35967",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "po box 33701 dept 33701 sn francisco ca 94139",
+    "ents": [
+      {
+        "text": "po box",
+        "label": "USPSBoxType"
+      },
+      {
+        "text": "33701",
+        "label": "USPSBoxID",
+        "start": 7,
+        "end": 12
+      },
+      {
+        "text": "dept",
+        "label": "SubaddressType"
+      },
+      {
+        "text": "33701",
+        "label": "SubaddressIdentifier",
+        "start": 18,
+        "end": 23
+      },
+      {
+        "text": "sn francisco",
+        "label": "PlaceName"
+      },
+      {
+        "text": "ca",
+        "label": "StateName"
+      },
+      {
+        "text": "94139",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "1950 n. stemmons freeway",
+    "ents": [
+      {
+        "text": "1950",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "n.",
+        "label": "StreetNamePreDirectional"
+      },
+      {
+        "text": "stemmons",
+        "label": "StreetName"
+      },
+      {
+        "text": "freeway",
+        "label": "StreetNamePostType"
+      }
+    ]
+  },
+  {
+    "text": "93 s jackson st # 75108 seattle wa 98104-2818",
+    "ents": [
+      {
+        "text": "93",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "s",
+        "label": "StreetNamePreDirectional",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "text": "jackson",
+        "label": "StreetName"
+      },
+      {
+        "text": "st",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "# 75108",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "seattle",
+        "label": "PlaceName"
+      },
+      {
+        "text": "wa",
+        "label": "StateName"
+      },
+      {
+        "text": "98104-2818",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "701 u.s. highway 1 ste 402 n. palm beach fl 33408",
+    "ents": [
+      {
+        "text": "701",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "u.s. highway",
+        "label": "StreetNamePreType"
+      },
+      {
+        "text": "1",
+        "label": "StreetName",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "text": "ste",
+        "label": "OccupancyType"
+      },
+      {
+        "text": "402",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "n. palm beach",
+        "label": "PlaceName"
+      },
+      {
+        "text": "fl",
+        "label": "StateName"
+      },
+      {
+        "text": "33408",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "428 westwind dr north palm beach fl 33408",
+    "ents": [
+      {
+        "text": "428",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "westwind",
+        "label": "StreetName"
+      },
+      {
+        "text": "dr",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "north palm beach",
+        "label": "PlaceName"
+      },
+      {
+        "text": "fl",
+        "label": "StateName"
+      },
+      {
+        "text": "33408",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "3424 camp robinson rd. north little rock ar 72118",
+    "ents": [
+      {
+        "text": "3424",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "camp robinson",
+        "label": "StreetName"
+      },
+      {
+        "text": "rd.",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "north little rock",
+        "label": "PlaceName"
+      },
+      {
+        "text": "ar",
+        "label": "StateName"
+      },
+      {
+        "text": "72118",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "po box 2303 department 130 indianapolis in 46206",
+    "ents": [
+      {
+        "text": "po box",
+        "label": "USPSBoxType"
+      },
+      {
+        "text": "2303",
+        "label": "USPSBoxID"
+      },
+      {
+        "text": "department",
+        "label": "SubaddressType"
+      },
+      {
+        "text": "130",
+        "label": "SubaddressIdentifier"
+      },
+      {
+        "text": "indianapolis",
+        "label": "PlaceName"
+      },
+      {
+        "text": "in",
+        "label": "StateName",
+        "start": 40,
+        "end": 42
+      },
+      {
+        "text": "46206",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "9457 s university blvd # 252 highlands ranch co 80126-4976",
+    "ents": [
+      {
+        "text": "9457",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "s",
+        "label": "StreetNamePreDirectional",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "text": "university",
+        "label": "StreetName"
+      },
+      {
+        "text": "blvd",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "# 252",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "highlands ranch",
+        "label": "PlaceName"
+      },
+      {
+        "text": "co",
+        "label": "StateName"
+      },
+      {
+        "text": "80126-4976",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "62835 JESUS MARIA RD MOKELUMNE HILL CA 95245-9658",
+    "ents": [
+      {
+        "text": "62835",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "JESUS MARIA",
+        "label": "StreetName"
+      },
+      {
+        "text": "RD",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "MOKELUMNE HILL",
+        "label": "PlaceName"
+      },
+      {
+        "text": "CA",
+        "label": "StateName"
+      },
+      {
+        "text": "95245-9658",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "9275 NE 48TH CT APT 105 LIGHTHOUSE POINT FL 33064-7908",
+    "ents": [
+      {
+        "text": "9275",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "NE",
+        "label": "StreetNamePreDirectional"
+      },
+      {
+        "text": "48TH",
+        "label": "StreetName"
+      },
+      {
+        "text": "CT",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "APT",
+        "label": "OccupancyType"
+      },
+      {
+        "text": "105",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "LIGHTHOUSE POINT",
+        "label": "PlaceName"
+      },
+      {
+        "text": "FL",
+        "label": "StateName"
+      },
+      {
+        "text": "33064-7908",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "9208 COUNTY LINE RD HUNTINGDON VALLEY PA 19006-1701",
+    "ents": [
+      {
+        "text": "9208",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "COUNTY LINE",
+        "label": "StreetName"
+      },
+      {
+        "text": "RD",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "HUNTINGDON VALLEY",
+        "label": "PlaceName"
+      },
+      {
+        "text": "PA",
+        "label": "StateName"
+      },
+      {
+        "text": "19006-1701",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "895 W MILLER ST FRUITLAND PK FL 34731-2244",
+    "ents": [
+      {
+        "text": "895",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "W",
+        "label": "StreetNamePreDirectional"
+      },
+      {
+        "text": "MILLER",
+        "label": "StreetName"
+      },
+      {
+        "text": "ST",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "FRUITLAND PK",
+        "label": "PlaceName"
+      },
+      {
+        "text": "FL",
+        "label": "StateName"
+      },
+      {
+        "text": "34731-2244",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "18 SLEEPY LAGOON WAY FLOWERY BRANCH GA 30542-7556",
+    "ents": [
+      {
+        "text": "18",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "SLEEPY LAGOON",
+        "label": "StreetName"
+      },
+      {
+        "text": "WAY",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "FLOWERY BRANCH",
+        "label": "PlaceName"
+      },
+      {
+        "text": "GA",
+        "label": "StateName"
+      },
+      {
+        "text": "30542-7556",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "1080 BUCK HILL DR HUNTINGDON VY PA 19006-7910",
+    "ents": [
+      {
+        "text": "1080",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "BUCK HILL",
+        "label": "StreetName"
+      },
+      {
+        "text": "DR",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "HUNTINGDON VY",
+        "label": "PlaceName"
+      },
+      {
+        "text": "PA",
+        "label": "StateName"
+      },
+      {
+        "text": "19006-7910",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "85 MARTIN TRL FLOWERY BR GA 30542-3549",
+    "ents": [
+      {
+        "text": "85",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "MARTIN",
+        "label": "StreetName"
+      },
+      {
+        "text": "TRL",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "FLOWERY BR",
+        "label": "PlaceName"
+      },
+      {
+        "text": "GA",
+        "label": "StateName"
+      },
+      {
+        "text": "30542-3549",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "10095 TALBOT AVE HUNTINGTON WOODS MI 48070-1134",
+    "ents": [
+      {
+        "text": "10095",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "TALBOT",
+        "label": "StreetName"
+      },
+      {
+        "text": "AVE",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "HUNTINGTON WOODS",
+        "label": "PlaceName"
+      },
+      {
+        "text": "MI",
+        "label": "StateName"
+      },
+      {
+        "text": "48070-1134",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "709 FOXWOOD CIR LAFAYETTE HL PA 19444-1646",
+    "ents": [
+      {
+        "text": "709",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "FOXWOOD",
+        "label": "StreetName"
+      },
+      {
+        "text": "CIR",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "LAFAYETTE HL",
+        "label": "PlaceName"
+      },
+      {
+        "text": "PA",
+        "label": "StateName"
+      },
+      {
+        "text": "19444-1646",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "981 CATHAY CIR HUNTINGTON BH CA 92646-4817",
+    "ents": [
+      {
+        "text": "981",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "CATHAY",
+        "label": "StreetName"
+      },
+      {
+        "text": "CIR",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "HUNTINGTON BH",
+        "label": "PlaceName"
+      },
+      {
+        "text": "CA",
+        "label": "StateName",
+        "start": 29,
+        "end": 31
+      },
+      {
+        "text": "92646-4817",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "93 TWINBROOK RD BEAR CREEK TWP PA 18702-8415",
+    "ents": [
+      {
+        "text": "93",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "TWINBROOK",
+        "label": "StreetName"
+      },
+      {
+        "text": "RD",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "BEAR CREEK TWP",
+        "label": "PlaceName"
+      },
+      {
+        "text": "PA",
+        "label": "StateName"
+      },
+      {
+        "text": "18702-8415",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "612 N CATHERINE AVE LA GRANGE PARK IL 60526-1511",
+    "ents": [
+      {
+        "text": "612",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "N",
+        "label": "StreetNamePreDirectional",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "text": "CATHERINE",
+        "label": "StreetName"
+      },
+      {
+        "text": "AVE",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "LA GRANGE PARK",
+        "label": "PlaceName"
+      },
+      {
+        "text": "IL",
+        "label": "StateName"
+      },
+      {
+        "text": "60526-1511",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "38415 BORGMAN AVE HUNTINGTON WD MI 48070-1104",
+    "ents": [
+      {
+        "text": "38415",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "BORGMAN",
+        "label": "StreetName"
+      },
+      {
+        "text": "AVE",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "HUNTINGTON WD",
+        "label": "PlaceName"
+      },
+      {
+        "text": "MI",
+        "label": "StateName"
+      },
+      {
+        "text": "48070-1104",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "7810 JORDAN RD GLOUCESTER PT VA 23062-2222",
+    "ents": [
+      {
+        "text": "7810",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "JORDAN",
+        "label": "StreetName"
+      },
+      {
+        "text": "RD",
+        "label": "StreetNamePostType",
+        "start": 12,
+        "end": 14
+      },
+      {
+        "text": "GLOUCESTER PT",
+        "label": "PlaceName"
+      },
+      {
+        "text": "VA",
+        "label": "StateName"
+      },
+      {
+        "text": "23062-2222",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "1503 BEAR CREEK BLVD BEAR CREEK TW PA 18702-9441",
+    "ents": [
+      {
+        "text": "1503",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "BEAR CREEK",
+        "label": "StreetName",
+        "start": 5,
+        "end": 15
+      },
+      {
+        "text": "BLVD",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "BEAR CREEK TW",
+        "label": "PlaceName"
+      },
+      {
+        "text": "PA",
+        "label": "StateName"
+      },
+      {
+        "text": "18702-9441",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "5418 RIVER RD LIBERTY GROVE RD NORTH WILKESBORO 28659",
+    "ents": [
+      {
+        "text": "5418",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "RIVER",
+        "label": "StreetName"
+      },
+      {
+        "text": "RD",
+        "label": "StreetNamePostType",
+        "start": 11,
+        "end": 13
+      },
+      {
+        "text": "LIBERTY GROVE",
+        "label": "StreetName"
+      },
+      {
+        "text": "RD",
+        "label": "StreetNamePostType",
+        "start": 28,
+        "end": 30
+      },
+      {
+        "text": "NORTH WILKESBORO",
+        "label": "PlaceName"
+      },
+      {
+        "text": "28659",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "396 GEORGE W LILES PKWY NW CONCORD 28027",
+    "ents": [
+      {
+        "text": "396",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "GEORGE W LILES",
+        "label": "StreetName"
+      },
+      {
+        "text": "PKWY",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "NW",
+        "label": "StreetNamePostDirectional"
+      },
+      {
+        "text": "CONCORD",
+        "label": "PlaceName"
+      },
+      {
+        "text": "28027",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "0 E WARDELL DR # APT 3 PEMBROKE 28372",
+    "ents": [
+      {
+        "text": "0",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "E",
+        "label": "StreetNamePreDirectional",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "text": "WARDELL",
+        "label": "StreetName"
+      },
+      {
+        "text": "DR",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "#",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "APT",
+        "label": "OccupancyType"
+      },
+      {
+        "text": "3",
+        "label": "OccupancyIdentifier",
+        "start": 21,
+        "end": 22
+      },
+      {
+        "text": "PEMBROKE",
+        "label": "PlaceName"
+      },
+      {
+        "text": "28372",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "406 North Highway 71 Business Lowell AR 72745",
+    "ents": [
+      {
+        "text": "406",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "North",
+        "label": "StreetNamePreDirectional"
+      },
+      {
+        "text": "Highway",
+        "label": "StreetNamePreType"
+      },
+      {
+        "text": "71 Business",
+        "label": "StreetName"
+      },
+      {
+        "text": "Lowell",
+        "label": "PlaceName"
+      },
+      {
+        "text": "AR",
+        "label": "StateName"
+      },
+      {
+        "text": "72745",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "2500 S AND W FARM RD HICKORY 28602",
+    "ents": [
+      {
+        "text": "2500",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "S",
+        "label": "StreetNamePreDirectional"
+      },
+      {
+        "text": "AND",
+        "label": "NotAddress"
+      },
+      {
+        "text": "W",
+        "label": "StreetNamePreDirectional"
+      },
+      {
+        "text": "FARM",
+        "label": "StreetName"
+      },
+      {
+        "text": "RD",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "HICKORY",
+        "label": "PlaceName"
+      },
+      {
+        "text": "28602",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "4315 WEBSTER AVENUE LH",
+    "ents": [
+      {
+        "text": "4315",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "WEBSTER",
+        "label": "StreetName"
+      },
+      {
+        "text": "AVENUE",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "LH",
+        "label": "OccupancyIdentifier"
+      }
+    ]
+  },
+  {
+    "text": "4483 MANHATTAN COLLEGE PY",
+    "ents": [
+      {
+        "text": "4483",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "MANHATTAN COLLEGE",
+        "label": "StreetName"
+      },
+      {
+        "text": "PY",
+        "label": "StreetNamePostType"
+      }
+    ]
+  },
+  {
+    "text": "188 ROUTE 690 SPRINGBROOK TOWNSHIP, PA 18444",
+    "ents": [
+      {
+        "text": "188",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "ROUTE",
+        "label": "StreetNamePreType"
+      },
+      {
+        "text": "690",
+        "label": "StreetName"
+      },
+      {
+        "text": "SPRINGBROOK TOWNSHIP",
+        "label": "PlaceName"
+      },
+      {
+        "text": "PA",
+        "label": "StateName"
+      },
+      {
+        "text": "18444",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "333 STATE ROUTE 590 ROARING BROOK TWP, PA 18444",
+    "ents": [
+      {
+        "text": "333",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "STATE ROUTE",
+        "label": "StreetNamePreType"
+      },
+      {
+        "text": "590",
+        "label": "StreetName"
+      },
+      {
+        "text": "ROARING BROOK TWP",
+        "label": "PlaceName"
+      },
+      {
+        "text": "PA",
+        "label": "StateName"
+      },
+      {
+        "text": "18444",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "3750 PRIORITY WAY SOUTH DR",
+    "ents": [
+      {
+        "text": "3750",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "PRIORITY WAY",
+        "label": "StreetName"
+      },
+      {
+        "text": "SOUTH",
+        "label": "StreetNamePostDirectional"
+      },
+      {
+        "text": "DR",
+        "label": "StreetNamePostType"
+      }
+    ]
+  },
+  {
+    "text": "250 JOHN W MORROW JR PKWY",
+    "ents": [
+      {
+        "text": "250",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "JOHN W MORROW JR",
+        "label": "StreetName"
+      },
+      {
+        "text": "PKWY",
+        "label": "StreetNamePostType"
+      }
+    ]
+  },
+  {
+    "text": "900 Business 150 STE 3, Mansfield, PA 19402",
+    "ents": [
+      {
+        "text": "900",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Business",
+        "label": "StreetNamePreType"
+      },
+      {
+        "text": "150",
+        "label": "StreetName"
+      },
+      {
+        "text": "STE",
+        "label": "OccupancyType"
+      },
+      {
+        "text": "3",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "Mansfield",
+        "label": "PlaceName"
+      },
+      {
+        "text": "PA",
+        "label": "StateName"
+      },
+      {
+        "text": "19402",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "83 Business 15, Mansfield, PA 16933",
+    "ents": [
+      {
+        "text": "83",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Business",
+        "label": "StreetNamePreType"
+      },
+      {
+        "text": "15",
+        "label": "StreetName"
+      },
+      {
+        "text": "Mansfield",
+        "label": "PlaceName"
+      },
+      {
+        "text": "PA",
+        "label": "StateName"
+      },
+      {
+        "text": "16933",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "900 Business 150 STE 3, Mansfield, PA 19402",
+    "ents": [
+      {
+        "text": "900",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Business",
+        "label": "StreetNamePreType"
+      },
+      {
+        "text": "150",
+        "label": "StreetName"
+      },
+      {
+        "text": "STE",
+        "label": "OccupancyType"
+      },
+      {
+        "text": "3",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "Mansfield",
+        "label": "PlaceName"
+      },
+      {
+        "text": "PA",
+        "label": "StateName"
+      },
+      {
+        "text": "19402",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "100 Business 40, Kernersville, NC 27284",
+    "ents": [
+      {
+        "text": "100",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Business",
+        "label": "StreetNamePreType"
+      },
+      {
+        "text": "40",
+        "label": "StreetName"
+      },
+      {
+        "text": "Kernersville",
+        "label": "PlaceName"
+      },
+      {
+        "text": "NC",
+        "label": "StateName"
+      },
+      {
+        "text": "27284",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "400 Calm Lake Circle, Rochester, NY, 14612",
+    "ents": [
+      {
+        "text": "400",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Calm Lake",
+        "label": "StreetName"
+      },
+      {
+        "text": "Circle",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Rochester",
+        "label": "PlaceName"
+      },
+      {
+        "text": "NY",
+        "label": "StateName"
+      },
+      {
+        "text": "14612",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "37 Jefferson Crt, Fairport, NY",
+    "ents": [
+      {
+        "text": "37",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Jefferson",
+        "label": "StreetName"
+      },
+      {
+        "text": "Crt",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Fairport",
+        "label": "PlaceName"
+      },
+      {
+        "text": "NY",
+        "label": "StateName"
+      }
+    ]
+  },
+  {
+    "text": "4 Cypress Ci, Fairport, NY",
+    "ents": [
+      {
+        "text": "4",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Cypress",
+        "label": "StreetName"
+      },
+      {
+        "text": "Ci",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Fairport",
+        "label": "PlaceName"
+      },
+      {
+        "text": "NY",
+        "label": "StateName"
+      }
+    ]
+  }
+]

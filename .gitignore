@@ -1,4 +1,5 @@
-data
+data/*
+!data/*.nerf
 training
 package
 .venv

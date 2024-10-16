@@ -1,8 +1,8 @@
 gpu := '-1'
 
 train model='sm':
-    python xml2spacy.py data/train.xml data/train.spacy
-    python xml2spacy.py data/dev.xml data/dev.spacy
+    python nerf.py data/train.nerf data/train.spacy
+    python nerf.py data/dev.nerf data/dev.spacy
     mkdir -p models/{{model}}/training
     python -m spacy train models/{{model}}/config.cfg --output models/{{model}}/training --paths.train ./data/train.spacy --paths.dev ./data/dev.spacy  --gpu-id {{gpu}}
 
