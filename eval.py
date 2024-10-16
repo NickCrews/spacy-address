@@ -46,7 +46,7 @@ def viz_examples(examples: Iterable[Example]):
 
 def main(
     nlp_dir: Path = "./models/sm/training/model-last",
-    dev_set: Path = "./data/test.spacy",
+    dev_set: Path = "./data/dev.spacy",
 ):
     nlp = spacy.load(nlp_dir)
     examples = load_examples(nlp, dev_set)

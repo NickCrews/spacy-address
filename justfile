@@ -2,9 +2,9 @@ gpu := '-1'
 
 train model='sm':
     python xml2spacy.py data/train.xml data/train.spacy
-    python xml2spacy.py data/test.xml data/test.spacy
+    python xml2spacy.py data/dev.xml data/dev.spacy
     mkdir -p models/{{model}}/training
-    python -m spacy train models/{{model}}/config.cfg --output models/{{model}}/training --paths.train ./data/train.spacy --paths.dev ./data/test.spacy  --gpu-id {{gpu}}
+    python -m spacy train models/{{model}}/config.cfg --output models/{{model}}/training --paths.train ./data/train.spacy --paths.dev ./data/dev.spacy  --gpu-id {{gpu}}
 
 # Convert the trained model to a python package
 package model='sm' version='model-best':
@@ -18,7 +18,7 @@ release model='sm':
 # Fetch the labeled XML data from the usaddress repository
 fetch-data:
     curl https://raw.githubusercontent.com/datamade/usaddress/refs/heads/main/training/labeled.xml > data/train.xml
-    curl https://raw.githubusercontent.com/datamade/usaddress/refs/heads/main/measure_performance/test_data/labeled.xml > data/test.xml
+    curl https://raw.githubusercontent.com/datamade/usaddress/refs/heads/main/measure_performance/test_data/labeled.xml > data/dev.xml
     curl https://raw.githubusercontent.com/EthanRBrown/rrad/refs/heads/master/addresses-us-1000.json > data/benchmark.json
 
 test *ARGS:
