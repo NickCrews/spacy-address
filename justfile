@@ -23,3 +23,7 @@ fetch-data:
 
 test *ARGS:
     python -m pytest {{ARGS}}
+
+# review the bad predictions
+review:
+    streamlit run eval.py
