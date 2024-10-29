@@ -39,7 +39,7 @@ The speed isn't reported anywhere easily, unfortunately.
 You can install from a release directly with pip:
 
 ```bash
-python -m pip install "en-us-address-ner-sm @ https://github.com/NickCrews/spacy-address/releases/download/20241007-072524-sm/en_us_address_ner_sm-0.0.0-py3-none-any.whl"
+python -m pip install "en-us-address-ner-sm @ https://github.com/NickCrews/spacy-address/releases/download/20241029-205717-sm/en_us_address_ner_sm-0.0.0-py3-none-any.whl"
 ```
 
 Now, this is accessible from python:
@@ -60,6 +60,11 @@ for ent in doc.ents:
 # Oklahoma City (PlaceName)        # Oklahoma isn't confused as a state!
 # OK (StateName)
 # 99507-1234 (ZipCode)
+
+# For convenience I include the taggings for autcomplete, IDE support, etc
+from en_us_address_ner_sm import labels
+[ent.text for ent in doc.ents if ent.label_ == labels.StateName]
+# ['OK']
 ```
 
 This uses the tags from the
