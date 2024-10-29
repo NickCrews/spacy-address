@@ -10,6 +10,7 @@ train model='sm':
 # Convert the trained model to a python package
 package model='sm' version='model-best':
     mkdir -p models/{{model}}/package
+    rm -rf models/{{model}}/package/*
     python -m spacy package models/{{model}}/training/{{version}} models/{{model}}/package --build wheel --force --meta-path models/{{model}}/meta.json --code labels.py
 
 # Publish the python package to GitHub releases
