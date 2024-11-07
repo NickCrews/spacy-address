@@ -83,10 +83,9 @@ quite suited my needs. Here is what I was aiming for
 - Python API
 - An installation story that isn't a total pain.
 
+## Comparison vs Peers
 Here is an incomplete list of how this project compares with some other projects
 I've tried:
-
-## Comparison vs Peers
 
 ### [Libpostal](https://github.com/openvenues/libpostal)
 
