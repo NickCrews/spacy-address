@@ -71,6 +71,53 @@ This uses the tags from the
 "United States Thoroughfare, Landmark, and Postal Address Data Standard (Publication 28)".
 See [labels.py](./labels.py) for details
 
+## Goals/Why
+
+I have tried using various probabilstic address parsers/taggers.
+Here is an incomplete list of how this project compares with each of those:
+
+### [Libpostal](https://github.com/openvenues/libpostal)
+
+- appears fairly unmaintained. It still works, but mostly all development
+appears to keep the lights on.
+- pain in the butt to deploy. You have to build from source using git, no `pip`.
+- Requires a few GB of data (this amount might not be totally correct, but anyways a lot)
+- it's not thread safe, and hard to integrate with other projects.
+See https://github.com/Maxxen/duckdb-postal/issues/1
+- Uses OpenStreetMap, with addresses from around the world
+- Uses [a slightly different set of tags](https://github.com/OpenCageData/address-formatting)
+from this project. They are less USPS-specific, more applicable for worldwide addresses,
+but aren't as granular, ie we tag "NW" as a StreetPreDirectional, they don't
+go to that level of detail. We tag post office boxes and rural routes, they don't.
+Might be more differences than what I have here. I'm open to expanding to a different
+tagging scheme, but I NEED to support USPS PO box tagging, and of separating out the
+street name ("Aspen") vs street type ("Avenue").
+- According to [their very in depth blog post](https://medium.com/@albarrentine/statistical-nlp-on-openstreetmap-b9d573e6cc86),
+it's quite more technically specialized than the other solutions here.
+Does a lot of hand-written, address-domain specific things like normalizing st -> street,
+hand-parsing numbers with custom grammar rules, etc.
+- uses something called a "averaged perceptron" which they claim is much faster than
+ conditional random fields (as usaddress uses). IDK what spacy is doing...
+- I would be very interested in a speed comparison vs us, building a c app
+that does bulk processing.
+- They claim a ~99.5% accuracy, which is similar to what we achieve.
+I would love to test this though.
+
+### [PyPostal](https://github.com/openvenues/pypostal)
+The python bindings to libpostal.
+- has same installation problems as the above.
+- only provides a one-by-one inference API, no batch API
+- I would be very interested in a speed comparison vs us.
+
+### [USAddress](https://github.com/datamade/usaddress)
+- python only
+- Older architecture (conditional random fields, but that doesn't mean anything to me...)
+- Uses same set of taggings as us.
+- Tokenizes in python using hardcoded rules. in spacy, the tokenizer is another trained model.
+  IDK really the consequences of this.
+- I would be very interested in a speed comparison vs us.
+- IDK what their accuracy numbers are.
+
 ## Licence
 
 Released under the MIT license.
