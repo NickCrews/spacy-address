@@ -76,7 +76,7 @@ See [labels.py](./labels.py) for details
 I have tried using various probabilstic address parsers/taggers. None of them
 quite suited my needs. Here is what I was aiming for
 
-- Speed: I am doing bulk processing, I want to parse 10s of millions of addresses in <5 minutes
+- Speed: I am doing bulk processing, I want to parse 10s of millions of addresses in <10 minutes (we're not there yet, see timings above.)
 - Support for PO Boxes.
 - Support for finegrained tagging, eg split "Aspen Avenue" into ("Aspen", StreetName), ("Avenue", StreetPostType).
   I need this for performing entity resolution, I only really care about the street name.
