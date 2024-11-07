@@ -71,16 +71,28 @@ This uses the tags from the
 "United States Thoroughfare, Landmark, and Postal Address Data Standard (Publication 28)".
 See [labels.py](./labels.py) for details
 
-## Goals/Why
+## Goals
 
-I have tried using various probabilstic address parsers/taggers.
-Here is an incomplete list of how this project compares with each of those:
+I have tried using various probabilstic address parsers/taggers. None of them
+quite suited my needs. Here is what I was aiming for
+
+- Speed: I am doing bulk processing, I want to parse 10s of millions of addresses in <5 minutes
+- Support for PO Boxes.
+- Support for finegrained tagging, eg split "Aspen Avenue" into ("Aspen", StreetName), ("Avenue", StreetPostType).
+  I need this for performing entity resolution, I only really care about the street name.
+- Python API
+- An installation story that isn't a total pain.
+
+Here is an incomplete list of how this project compares with some other projects
+I've tried:
+
+## Comparison vs Peers
 
 ### [Libpostal](https://github.com/openvenues/libpostal)
 
 - appears fairly unmaintained. It still works, but mostly all development
 appears to keep the lights on.
-- pain in the butt to deploy. You have to build from source using git, no `pip`.
+- pain in the butt to deploy. You have to build from source using git, gcc, no `pip`.
 - Requires a few GB of data (this amount might not be totally correct, but anyways a lot)
 - it's not thread safe, and hard to integrate with other projects.
 See https://github.com/Maxxen/duckdb-postal/issues/1
@@ -110,9 +122,11 @@ The python bindings to libpostal.
 - I would be very interested in a speed comparison vs us.
 
 ### [USAddress](https://github.com/datamade/usaddress)
-- python only
+- Python only. Installable with `pip`!
+- Not actively maintained, but basic maintenance happens.
 - Older architecture (conditional random fields, but that doesn't mean anything to me...)
 - Uses same set of taggings as us.
+- Also uses OpenStreetMap data.
 - Tokenizes in python using hardcoded rules. in spacy, the tokenizer is another trained model.
   IDK really the consequences of this.
 - I would be very interested in a speed comparison vs us.
