@@ -2968,43 +2968,6 @@
     ]
   },
   {
-    "text": "900 Business 150 STE 3, Mansfield, PA 19402",
-    "ents": [
-      {
-        "text": "900",
-        "label": "AddressNumber"
-      },
-      {
-        "text": "Business",
-        "label": "StreetNamePreType"
-      },
-      {
-        "text": "150",
-        "label": "StreetName"
-      },
-      {
-        "text": "STE",
-        "label": "OccupancyType"
-      },
-      {
-        "text": "3",
-        "label": "OccupancyIdentifier"
-      },
-      {
-        "text": "Mansfield",
-        "label": "PlaceName"
-      },
-      {
-        "text": "PA",
-        "label": "StateName"
-      },
-      {
-        "text": "19402",
-        "label": "ZipCode"
-      }
-    ]
-  },
-  {
     "text": "100 Business 40, Kernersville, NC 27284",
     "ents": [
       {
