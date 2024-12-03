@@ -42196,6 +42196,45 @@
     ]
   },
   {
+    "text": "Bob Jones director at Kansas City Branch, 943 E Old Ajo Highway, Kansas City, KS 13243",
+    "ents": [
+      {
+        "text": "Bob Jones director at Kansas City Branch",
+        "label": "Recipient"
+      },
+      {
+        "text": "943",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "E",
+        "label": "StreetNamePreDirectional"
+      },
+      {
+        "text": "Old Ajo",
+        "label": "StreetName"
+      },
+      {
+        "text": "Highway",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Kansas City",
+        "label": "PlaceName",
+        "start": 65,
+        "end": 76
+      },
+      {
+        "text": "KS",
+        "label": "StateName"
+      },
+      {
+        "text": "13243",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
     "text": "534 country estate, cliffside heights, nc 28043",
     "ents": [
       {
