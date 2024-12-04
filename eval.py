@@ -43,6 +43,7 @@ def viz_examples(examples: Iterable[Example]):
     for i, ex in enumerate(examples):
         if not is_misprediction(ex):
             continue
+        st.title(ex.text)
         col1, col2 = st.columns(2)
         with col1:
             visualize_ner(
@@ -58,6 +59,7 @@ def viz_examples(examples: Iterable[Example]):
                 key=f"{i}_pred",
                 title="Predicted",
             )
+        st.divider()
 
 
 def main(nlp: None | Path = None, docbin: None | Path = None):
