@@ -41934,5 +41934,324 @@
         "label": "ZipCode"
       }
     ]
+  },
+  {
+    "text": "X500 Y1234 Mosaic St Clearview, TX 77001",
+    "ents": [
+      {
+        "text": "X500 Y1234",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Mosaic",
+        "label": "StreetName"
+      },
+      {
+        "text": "St",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Clearview",
+        "label": "PlaceName"
+      },
+      {
+        "text": "TX",
+        "label": "StateName"
+      },
+      {
+        "text": "77001",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "QZ2345+W Moonlit Ridge Trl Aurora, CO 80012",
+    "ents": [
+      {
+        "text": "QZ2345+W",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Moonlit Ridge",
+        "label": "StreetName"
+      },
+      {
+        "text": "Trl",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Aurora",
+        "label": "PlaceName"
+      },
+      {
+        "text": "CO",
+        "label": "StateName"
+      },
+      {
+        "text": "80012",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "PK14-N Alpha Way Southview, MA 02124",
+    "ents": [
+      {
+        "text": "PK14-N",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Alpha",
+        "label": "StreetName"
+      },
+      {
+        "text": "Way",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Southview",
+        "label": "PlaceName"
+      },
+      {
+        "text": "MA",
+        "label": "StateName"
+      },
+      {
+        "text": "02124",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "A1234B/C 7th Sky Rd Horizon, NY 10001",
+    "ents": [
+      {
+        "text": "A1234B/C",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "7th Sky",
+        "label": "StreetName"
+      },
+      {
+        "text": "Rd",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Horizon",
+        "label": "PlaceName"
+      },
+      {
+        "text": "NY",
+        "label": "StateName"
+      },
+      {
+        "text": "10001",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "G78:LM1 2nd Star Ave Crescent City, CA 95531",
+    "ents": [
+      {
+        "text": "G78:LM1",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "2nd Star",
+        "label": "StreetName"
+      },
+      {
+        "text": "Ave",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Crescent City",
+        "label": "PlaceName"
+      },
+      {
+        "text": "CA",
+        "label": "StateName"
+      },
+      {
+        "text": "95531",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "W3.14 X9 Pi Circle Infinity, WA 98101",
+    "ents": [
+      {
+        "text": "W3.14 X9",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Pi",
+        "label": "StreetName"
+      },
+      {
+        "text": "Circle",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Infinity",
+        "label": "PlaceName"
+      },
+      {
+        "text": "WA",
+        "label": "StateName"
+      },
+      {
+        "text": "98101",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "Z99-Q789 Rusty Anchor Ln Harborview, FL 33109",
+    "ents": [
+      {
+        "text": "Z99-Q789",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Rusty Anchor",
+        "label": "StreetName"
+      },
+      {
+        "text": "Ln",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Harborview",
+        "label": "PlaceName"
+      },
+      {
+        "text": "FL",
+        "label": "StateName"
+      },
+      {
+        "text": "33109",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "12XY/345 Poplar Crest Dr Greenhill, OR 97080",
+    "ents": [
+      {
+        "text": "12XY/345",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Poplar Crest",
+        "label": "StreetName"
+      },
+      {
+        "text": "Dr",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Greenhill",
+        "label": "PlaceName"
+      },
+      {
+        "text": "OR",
+        "label": "StateName"
+      },
+      {
+        "text": "97080",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "L7:T62 Silver Lining Blvd Cloudyvale, TN 37013",
+    "ents": [
+      {
+        "text": "L7:T62",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Silver Lining",
+        "label": "StreetName"
+      },
+      {
+        "text": "Blvd",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Cloudyvale",
+        "label": "PlaceName"
+      },
+      {
+        "text": "TN",
+        "label": "StateName"
+      },
+      {
+        "text": "37013",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "WX/85-A Evergreen Pkwy Pinewood, CO 80439",
+    "ents": [
+      {
+        "text": "WX/85-A",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Evergreen",
+        "label": "StreetName"
+      },
+      {
+        "text": "Pkwy",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Pinewood",
+        "label": "PlaceName"
+      },
+      {
+        "text": "CO",
+        "label": "StateName"
+      },
+      {
+        "text": "80439",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "RTS-22::B8 Crimson Maple Ct Redstone, AZ 85048",
+    "ents": [
+      {
+        "text": "RTS-22::B8",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Crimson Maple",
+        "label": "StreetName"
+      },
+      {
+        "text": "Ct",
+        "label": "StreetNamePostType"
+      },
+      {
+        "text": "Redstone",
+        "label": "PlaceName"
+      },
+      {
+        "text": "AZ",
+        "label": "StateName"
+      },
+      {
+        "text": "85048",
+        "label": "ZipCode"
+      }
+    ]
   }
 ]
