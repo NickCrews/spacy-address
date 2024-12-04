@@ -247,8 +247,7 @@
       {
         "text": "60",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 2
+        "start": 0
       },
       {
         "text": "East",
@@ -278,8 +277,7 @@
       {
         "text": "Avila Beach",
         "label": "StreetName",
-        "start": 2,
-        "end": 13
+        "start": 2
       },
       {
         "text": "Drive",
@@ -288,8 +286,7 @@
       {
         "text": "Avila Beach",
         "label": "PlaceName",
-        "start": 21,
-        "end": 32
+        "start": 21
       }
     ]
   },
@@ -764,8 +761,7 @@
       {
         "text": "Kihei",
         "label": "StreetName",
-        "start": 11,
-        "end": 16
+        "start": 11
       },
       {
         "text": "Road",
@@ -782,8 +778,7 @@
       {
         "text": "Kihei",
         "label": "PlaceName",
-        "start": 33,
-        "end": 38
+        "start": 33
       },
       {
         "text": "HI",
@@ -801,8 +796,7 @@
       {
         "text": "500",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 3
+        "start": 0
       },
       {
         "text": "Marquette",
@@ -1014,7 +1008,7 @@
         "label": "AddressNumber"
       },
       {
-        "text":"Old Number",
+        "text": "Old Number",
         "label": "StreetNamePreModifier"
       },
       {
@@ -1157,8 +1151,7 @@
       {
         "text": "B",
         "label": "AddressNumberSuffix",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "South",
@@ -1192,8 +1185,7 @@
       {
         "text": "75",
         "label": "StreetName",
-        "start": 16,
-        "end": 18
+        "start": 16
       },
       {
         "text": "Penasco",
@@ -1382,8 +1374,7 @@
       {
         "text": "S",
         "label": "StreetNamePreDirectional",
-        "start": 5,
-        "end": 6
+        "start": 5
       },
       {
         "text": "Stony Island",
@@ -1850,8 +1841,7 @@
       {
         "text": "W",
         "label": "StreetNamePreDirectional",
-        "start": 5,
-        "end": 6
+        "start": 5
       },
       {
         "text": "BRYN MAWR",
@@ -2190,8 +2180,7 @@
       {
         "text": "W",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "Washington",
@@ -2534,14 +2523,12 @@
       {
         "text": "TN",
         "label": "StreetNamePostType",
-        "start": 28,
-        "end": 30
+        "start": 28
       },
       {
         "text": "TN",
         "label": "StateName",
-        "start": 32,
-        "end": 34
+        "start": 32
       },
       {
         "text": "38103",
@@ -2654,8 +2641,7 @@
       {
         "text": "10",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 2
+        "start": 0
       },
       {
         "text": "S.",
@@ -3238,8 +3224,7 @@
       {
         "text": "1",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 1
+        "start": 0
       },
       {
         "text": "E.",
@@ -3322,8 +3307,7 @@
       {
         "text": "33",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 2
+        "start": 0
       },
       {
         "text": "W.",
@@ -3534,8 +3518,7 @@
       {
         "text": "W",
         "label": "StreetNamePreDirectional",
-        "start": 3,
-        "end": 4
+        "start": 3
       },
       {
         "text": "Washington",
@@ -3569,8 +3552,7 @@
       {
         "text": "S",
         "label": "StreetNamePreDirectional",
-        "start": 3,
-        "end": 4
+        "start": 3
       },
       {
         "text": "LaSalle",
@@ -3579,8 +3561,7 @@
       {
         "text": "St",
         "label": "StreetNamePostType",
-        "start": 13,
-        "end": 15
+        "start": 13
       },
       {
         "text": "Ste.",
@@ -3643,8 +3624,7 @@
       {
         "text": "1",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 1
+        "start": 0
       },
       {
         "text": "N.",
@@ -4333,8 +4313,7 @@
       {
         "text": "4",
         "label": "OccupancyIdentifier",
-        "start": 27,
-        "end": 28
+        "start": 27
       },
       {
         "text": "Chicago",
@@ -4467,8 +4446,7 @@
       {
         "text": "Chicago",
         "label": "StreetName",
-        "start": 8,
-        "end": 15
+        "start": 8
       },
       {
         "text": "Ave.",
@@ -4477,8 +4455,7 @@
       {
         "text": "Chicago",
         "label": "PlaceName",
-        "start": 22,
-        "end": 29
+        "start": 22
       },
       {
         "text": "IL",
@@ -4537,8 +4514,7 @@
       {
         "text": "9",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 1
+        "start": 0
       },
       {
         "text": "West",
@@ -4667,8 +4643,7 @@
       {
         "text": "2",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 1
+        "start": 0
       },
       {
         "text": "North",
@@ -4772,8 +4747,7 @@
       {
         "text": "N",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "Tryon",
@@ -6442,8 +6416,7 @@
       {
         "text": "S",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "Dearborn",
@@ -6720,8 +6693,7 @@
       {
         "text": "7",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 1
+        "start": 0
       },
       {
         "text": "West",
@@ -7324,8 +7296,7 @@
       {
         "text": "6",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 1
+        "start": 0
       },
       {
         "text": "S.",
@@ -9198,8 +9169,7 @@
       {
         "text": "500",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 3
+        "start": 0
       },
       {
         "text": "Marquette",
@@ -9354,8 +9324,7 @@
       {
         "text": "60",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 2
+        "start": 0
       },
       {
         "text": "Arts Circle",
@@ -9510,8 +9479,7 @@
       {
         "text": "Chicago",
         "label": "StreetName",
-        "start": 9,
-        "end": 16
+        "start": 9
       },
       {
         "text": "Avenue",
@@ -9520,8 +9488,7 @@
       {
         "text": "Chicago",
         "label": "PlaceName",
-        "start": 25,
-        "end": 32
+        "start": 25
       },
       {
         "text": "IL",
@@ -9955,8 +9922,7 @@
       {
         "text": "N",
         "label": "StreetNamePreDirectional",
-        "start": 5,
-        "end": 6
+        "start": 5
       },
       {
         "text": "SEMINARY",
@@ -10133,8 +10099,7 @@
       {
         "text": "B",
         "label": "AddressNumberSuffix",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "South",
@@ -10464,8 +10429,7 @@
       {
         "text": "West",
         "label": "USPSBoxGroupID",
-        "start": 0,
-        "end": 4
+        "start": 0
       },
       {
         "text": "Route",
@@ -10524,8 +10488,7 @@
       {
         "text": "South",
         "label": "USPSBoxGroupID",
-        "start": 0,
-        "end": 5
+        "start": 0
       },
       {
         "text": "Route",
@@ -10634,8 +10597,7 @@
       {
         "text": "B",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 1
+        "start": 0
       },
       {
         "text": "San Luis",
@@ -11001,8 +10963,7 @@
       {
         "text": "B",
         "label": "AddressNumberSuffix",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "South",
@@ -11090,8 +11051,7 @@
       {
         "text": "313",
         "label": "USPSBoxGroupID",
-        "start": 6,
-        "end": 9
+        "start": 6
       },
       {
         "text": "RR",
@@ -11100,8 +11060,7 @@
       {
         "text": "313",
         "label": "USPSBoxID",
-        "start": 13,
-        "end": 16
+        "start": 13
       },
       {
         "text": "Box",
@@ -11558,8 +11517,7 @@
       {
         "text": "N",
         "label": "StreetNamePreDirectional",
-        "start": 5,
-        "end": 6
+        "start": 5
       },
       {
         "text": "SHEFFIELD",
@@ -11830,8 +11788,7 @@
       {
         "text": "7",
         "label": "USPSBoxGroupID",
-        "start": 6,
-        "end": 7
+        "start": 6
       },
       {
         "text": "RR",
@@ -11840,8 +11797,7 @@
       {
         "text": "7",
         "label": "USPSBoxID",
-        "start": 11,
-        "end": 12
+        "start": 11
       },
       {
         "text": "Box",
@@ -12340,8 +12296,7 @@
       {
         "text": "1234",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 4
+        "start": 0
       },
       {
         "text": "COUNTY HWY",
@@ -12358,8 +12313,7 @@
       {
         "text": "CO",
         "label": "StateName",
-        "start": 27,
-        "end": 29
+        "start": 27
       },
       {
         "text": "12345",
@@ -12747,8 +12701,7 @@
       {
         "text": "Some",
         "label": "StreetName",
-        "start": 8,
-        "end": 12
+        "start": 8
       },
       {
         "text": "Road",
@@ -12782,8 +12735,7 @@
       {
         "text": "3",
         "label": "StreetName",
-        "start": 21,
-        "end": 22
+        "start": 21
       }
     ]
   },
@@ -13567,8 +13519,7 @@
       {
         "text": "120",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 3
+        "start": 0
       },
       {
         "text": "Riverside",
@@ -13639,8 +13590,7 @@
       {
         "text": "Airport",
         "label": "StreetName",
-        "start": 31,
-        "end": 38
+        "start": 31
       },
       {
         "text": "Road",
@@ -14008,8 +13958,7 @@
       {
         "text": "1",
         "label": "SubaddressIdentifier",
-        "start": 32,
-        "end": 33
+        "start": 32
       },
       {
         "text": "Suite",
@@ -14043,8 +13992,7 @@
       {
         "text": "Langley",
         "label": "StreetName",
-        "start": 4,
-        "end": 11
+        "start": 4
       },
       {
         "text": "Drive",
@@ -14553,8 +14501,7 @@
       {
         "text": "1",
         "label": "USPSBoxGroupID",
-        "start": 3,
-        "end": 4
+        "start": 3
       },
       {
         "text": "BOX",
@@ -14862,8 +14809,7 @@
       {
         "text": "C",
         "label": "AddressNumberSuffix",
-        "start": 5,
-        "end": 6
+        "start": 5
       },
       {
         "text": "CROSS BEAM",
@@ -14996,8 +14942,7 @@
       {
         "text": "s",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "loudoun",
@@ -15681,8 +15626,7 @@
       {
         "text": "K",
         "label": "AddressNumber",
-        "start": 5,
-        "end": 6
+        "start": 5
       },
       {
         "text": "Beach Road",
@@ -15786,8 +15730,7 @@
       {
         "text": "K",
         "label": "AddressNumber",
-        "start": 3,
-        "end": 4
+        "start": 3
       },
       {
         "text": "Beach Road",
@@ -15858,8 +15801,7 @@
       {
         "text": "Englewood",
         "label": "StreetName",
-        "start": 5,
-        "end": 14
+        "start": 5
       },
       {
         "text": "Road",
@@ -15868,8 +15810,7 @@
       {
         "text": "Englewood",
         "label": "PlaceName",
-        "start": 31,
-        "end": 40
+        "start": 31
       },
       {
         "text": "FL",
@@ -16071,8 +16012,7 @@
       {
         "text": "N",
         "label": "StreetNamePostDirectional",
-        "start": 34,
-        "end": 35
+        "start": 34
       }
     ]
   },
@@ -16107,8 +16047,7 @@
       {
         "text": "S",
         "label": "StreetNamePreDirectional",
-        "start": 5,
-        "end": 6
+        "start": 5
       },
       {
         "text": "ULSTER ST",
@@ -16121,8 +16060,7 @@
       {
         "text": "STE",
         "label": "OccupancyType",
-        "start": 22,
-        "end": 25
+        "start": 22
       },
       {
         "text": "1100",
@@ -16220,8 +16158,7 @@
       {
         "text": "Route",
         "label": "StreetNamePreType",
-        "start": 0,
-        "end": 5
+        "start": 0
       },
       {
         "text": "30",
@@ -16234,8 +16171,7 @@
       {
         "text": "Route",
         "label": "StreetNamePreType",
-        "start": 11,
-        "end": 16
+        "start": 11
       },
       {
         "text": "45",
@@ -16488,8 +16424,7 @@
       {
         "text": "Bristol",
         "label": "PlaceName",
-        "start": 16,
-        "end": 23
+        "start": 16
       },
       {
         "text": "RI",
@@ -16511,8 +16446,7 @@
       {
         "text": "Meriden",
         "label": "PlaceName",
-        "start": 16,
-        "end": 23
+        "start": 16
       },
       {
         "text": "CT",
@@ -16575,8 +16509,7 @@
       {
         "text": "18",
         "label": "StreetName",
-        "start": 16,
-        "end": 18
+        "start": 16
       },
       {
         "text": "And",
@@ -17007,8 +16940,7 @@
       {
         "text": "B",
         "label": "SubaddressIdentifier",
-        "start": 25,
-        "end": 26
+        "start": 25
       },
       {
         "text": "Suite",
@@ -17772,8 +17704,7 @@
       {
         "text": "R",
         "label": "AddressNumberSuffix",
-        "start": 5,
-        "end": 6
+        "start": 5
       },
       {
         "text": "Ravenswood",
@@ -18428,8 +18359,7 @@
       {
         "text": "S",
         "label": "StreetNamePreDirectional",
-        "start": 3,
-        "end": 4
+        "start": 3
       },
       {
         "text": "MERIDAN",
@@ -18727,8 +18657,7 @@
       {
         "text": "N",
         "label": "StreetNamePreDirectional",
-        "start": 6,
-        "end": 7
+        "start": 6
       },
       {
         "text": "HOUSTON",
@@ -19094,8 +19023,7 @@
       {
         "text": "ST",
         "label": "StreetNamePostType",
-        "start": 10,
-        "end": 12
+        "start": 10
       },
       {
         "text": "EXT",
@@ -19225,8 +19153,7 @@
       {
         "text": "5",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 1
+        "start": 0
       },
       {
         "text": "Palisades",
@@ -19318,8 +19245,7 @@
       {
         "text": "6",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 1
+        "start": 0
       },
       {
         "text": "West",
@@ -19469,8 +19395,7 @@
       {
         "text": "S",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "19th Street",
@@ -19520,8 +19445,7 @@
       {
         "text": "4",
         "label": "OccupancyIdentifier",
-        "start": 29,
-        "end": 30
+        "start": 29
       },
       {
         "text": "Cedar Rapids",
@@ -19588,8 +19512,7 @@
       {
         "text": "S",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "21st Street",
@@ -19905,8 +19828,7 @@
       {
         "text": "S",
         "label": "StreetNamePreDirectional",
-        "start": 5,
-        "end": 6
+        "start": 5
       },
       {
         "text": "STATE",
@@ -20020,8 +19942,7 @@
       {
         "text": "S",
         "label": "StreetNamePreDirectional",
-        "start": 5,
-        "end": 6
+        "start": 5
       },
       {
         "text": "St thomas",
@@ -20138,8 +20059,7 @@
       {
         "text": "Ramon",
         "label": "StreetName",
-        "start": 12,
-        "end": 17
+        "start": 12
       },
       {
         "text": "Suite",
@@ -20177,8 +20097,7 @@
       {
         "text": "ST",
         "label": "StreetNamePostType",
-        "start": 7,
-        "end": 9
+        "start": 7
       },
       {
         "text": "STE",
@@ -20568,8 +20487,7 @@
       {
         "text": "st",
         "label": "StreetNamePostType",
-        "start": 12,
-        "end": 14
+        "start": 12
       },
       {
         "text": "palo alto",
@@ -20629,8 +20547,7 @@
       {
         "text": "N",
         "label": "StreetNamePreDirectional",
-        "start": 35,
-        "end": 36
+        "start": 35
       },
       {
         "text": "1ST",
@@ -20721,8 +20638,7 @@
       {
         "text": "ST",
         "label": "StreetNamePostType",
-        "start": 25,
-        "end": 27
+        "start": 25
       },
       {
         "text": "NW",
@@ -20946,8 +20862,7 @@
       {
         "text": "Busch",
         "label": "StreetName",
-        "start": 19,
-        "end": 24
+        "start": 19
       },
       {
         "text": "Place",
@@ -20994,8 +20909,7 @@
       {
         "text": "n",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "10",
@@ -21295,8 +21209,7 @@
       {
         "text": "Smithfield",
         "label": "PlaceName",
-        "start": 38,
-        "end": 48
+        "start": 38
       },
       {
         "text": "VA",
@@ -21322,8 +21235,7 @@
       {
         "text": "st",
         "label": "StreetNamePostType",
-        "start": 13,
-        "end": 15
+        "start": 13
       },
       {
         "text": "baldwin",
@@ -21614,8 +21526,7 @@
       {
         "text": "S",
         "label": "StreetNamePreDirectional",
-        "start": 6,
-        "end": 7
+        "start": 6
       },
       {
         "text": "BROADWICK",
@@ -22188,8 +22099,7 @@
       {
         "text": "N",
         "label": "StreetName",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "Ave",
@@ -22310,8 +22220,7 @@
       {
         "text": "2",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 1
+        "start": 0
       },
       {
         "text": "Cottage Grove",
@@ -22535,8 +22444,7 @@
       {
         "text": "A",
         "label": "OccupancyIdentifier",
-        "start": 16,
-        "end": 17
+        "start": 16
       },
       {
         "text": "Mount Vernon",
@@ -22714,8 +22622,7 @@
       {
         "text": "E",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "MANGROVE BAY",
@@ -22766,8 +22673,7 @@
       {
         "text": "ST",
         "label": "StreetNamePostType",
-        "start": 14,
-        "end": 16
+        "start": 14
       },
       {
         "text": "NW",
@@ -22788,8 +22694,7 @@
       {
         "text": "3",
         "label": "OccupancyIdentifier",
-        "start": 30,
-        "end": 31
+        "start": 30
       },
       {
         "text": "STE",
@@ -22844,8 +22749,7 @@
       {
         "text": "3",
         "label": "OccupancyIdentifier",
-        "start": 26,
-        "end": 27
+        "start": 26
       }
     ]
   },
@@ -22867,8 +22771,7 @@
       {
         "text": "ST",
         "label": "StreetNamePostType",
-        "start": 14,
-        "end": 16
+        "start": 14
       },
       {
         "text": "NW",
@@ -22885,8 +22788,7 @@
       {
         "text": "3",
         "label": "OccupancyIdentifier",
-        "start": 30,
-        "end": 31
+        "start": 30
       },
       {
         "text": "STE",
@@ -23135,8 +23037,7 @@
       {
         "text": "Okemos",
         "label": "StreetName",
-        "start": 5,
-        "end": 11
+        "start": 5
       },
       {
         "text": "Rd",
@@ -23153,8 +23054,7 @@
       {
         "text": "Okemos",
         "label": "PlaceName",
-        "start": 23,
-        "end": 29
+        "start": 23
       },
       {
         "text": "MI",
@@ -23176,8 +23076,7 @@
       {
         "text": "W",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "OLD",
@@ -23278,8 +23177,7 @@
       {
         "text": "2",
         "label": "USPSBoxGroupID",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "BOX",
@@ -23398,8 +23296,7 @@
       {
         "text": "N",
         "label": "StreetNamePreDirectional",
-        "start": 5,
-        "end": 6
+        "start": 5
       },
       {
         "text": "CENTRAL",
@@ -23491,8 +23388,7 @@
       {
         "text": "E",
         "label": "StreetName",
-        "start": 12,
-        "end": 13
+        "start": 12
       }
     ]
   },
@@ -23543,8 +23439,7 @@
       {
         "text": "E",
         "label": "OccupancyIdentifier",
-        "start": 16,
-        "end": 17
+        "start": 16
       }
     ]
   },
@@ -23709,8 +23604,7 @@
       {
         "text": "98",
         "label": "USPSBoxID",
-        "start": 8,
-        "end": 10
+        "start": 8
       },
       {
         "text": "St Joseph",
@@ -23840,8 +23734,7 @@
       {
         "text": "s",
         "label": "StreetName",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "st",
@@ -23900,14 +23793,12 @@
       {
         "text": "W",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "BUFFALO",
         "label": "StreetName",
-        "start": 6,
-        "end": 13
+        "start": 6
       },
       {
         "text": "NEW BUFFALO",
@@ -23975,8 +23866,7 @@
       {
         "text": "113",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 3
+        "start": 0
       },
       {
         "text": "BARKSDALE PROFESSIONAL",
@@ -24122,8 +24012,7 @@
       {
         "text": "6",
         "label": "OccupancyIdentifier",
-        "start": 27,
-        "end": 28
+        "start": 27
       },
       {
         "text": "Waco",
@@ -24191,8 +24080,7 @@
       {
         "text": "31",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 2
+        "start": 0
       },
       {
         "text": "Willow Hill",
@@ -24550,8 +24438,7 @@
       {
         "text": "3",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 1
+        "start": 0
       },
       {
         "text": "M Center 235-3A-09",
@@ -24614,8 +24501,7 @@
       {
         "text": "St",
         "label": "StreetNamePostType",
-        "start": 10,
-        "end": 12
+        "start": 10
       },
       {
         "text": "No",
@@ -25067,8 +24953,7 @@
       {
         "text": "e",
         "label": "StreetNamePostDirectional",
-        "start": 23,
-        "end": 24
+        "start": 23
       },
       {
         "text": "ste",
@@ -25111,8 +24996,7 @@
       {
         "text": "4",
         "label": "USPSBoxGroupID",
-        "start": 3,
-        "end": 4
+        "start": 3
       },
       {
         "text": "box",
@@ -25438,8 +25322,7 @@
       {
         "text": "30",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 2
+        "start": 0
       },
       {
         "text": "5th",
@@ -25481,8 +25364,7 @@
       {
         "text": "d",
         "label": "OccupancyIdentifier",
-        "start": 34,
-        "end": 35
+        "start": 34
       },
       {
         "text": "attn: mr. john poole",
@@ -25579,8 +25461,7 @@
       {
         "text": "30",
         "label": "AddressNumber",
-        "start": 27,
-        "end": 29
+        "start": 27
       },
       {
         "text": "ivan allen jr.",
@@ -25726,8 +25607,7 @@
       {
         "text": "30",
         "label": "AddressNumber",
-        "start": 25,
-        "end": 27
+        "start": 25
       },
       {
         "text": "ivan allen jr.",
@@ -25877,8 +25757,7 @@
       {
         "text": "piedmont",
         "label": "StreetName",
-        "start": 5,
-        "end": 13
+        "start": 5
       },
       {
         "text": "rd.",
@@ -25920,8 +25799,7 @@
       {
         "text": "10",
         "label": "SubaddressIdentifier",
-        "start": 32,
-        "end": 34
+        "start": 32
       },
       {
         "text": "st.",
@@ -26187,8 +26065,7 @@
       {
         "text": "il",
         "label": "StateName",
-        "start": 40,
-        "end": 42
+        "start": 40
       },
       {
         "text": "60555",
@@ -26268,8 +26145,7 @@
       {
         "text": "S",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "CEDAR",
@@ -26373,8 +26249,7 @@
       {
         "text": "AL",
         "label": "StateName",
-        "start": 33,
-        "end": 35
+        "start": 33
       },
       {
         "text": "35007",
@@ -26483,8 +26358,7 @@
       {
         "text": "200",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 3
+        "start": 0
       },
       {
         "text": "Spur",
@@ -26625,8 +26499,7 @@
       {
         "text": "628",
         "label": "USPSBoxID",
-        "start": 9,
-        "end": 12
+        "start": 9
       },
       {
         "text": "Hwy",
@@ -26664,8 +26537,7 @@
       {
         "text": "628",
         "label": "USPSBoxID",
-        "start": 38,
-        "end": 41
+        "start": 38
       },
       {
         "text": "Hwy",
@@ -26757,8 +26629,7 @@
       {
         "text": "W",
         "label": "StreetNamePreDirectional",
-        "start": 5,
-        "end": 6
+        "start": 5
       },
       {
         "text": "CITY HIGHWAY",
@@ -26949,8 +26820,7 @@
       {
         "text": "AL",
         "label": "StateName",
-        "start": 30,
-        "end": 32
+        "start": 30
       },
       {
         "text": "35057",
@@ -26993,8 +26863,7 @@
       {
         "text": "1",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 1
+        "start": 0
       },
       {
         "text": "Boston Medical Center",
@@ -27007,8 +26876,7 @@
       {
         "text": "Boston",
         "label": "PlaceName",
-        "start": 30,
-        "end": 36
+        "start": 30
       },
       {
         "text": "MA",
@@ -27026,8 +26894,7 @@
       {
         "text": "1",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 1
+        "start": 0
       },
       {
         "text": "Barnes Jewish Hospital",
@@ -27110,8 +26977,7 @@
       {
         "text": "1",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 1
+        "start": 0
       },
       {
         "text": "Cooper",
@@ -27177,8 +27043,7 @@
       {
         "text": "1",
         "label": "SubaddressIdentifier",
-        "start": 58,
-        "end": 59
+        "start": 58
       },
       {
         "text": "Suite",
@@ -27257,8 +27122,7 @@
       {
         "text": "ST",
         "label": "StreetNamePostType",
-        "start": 36,
-        "end": 38
+        "start": 36
       },
       {
         "text": "SAN FRANCISCO",
@@ -27288,8 +27152,7 @@
       {
         "text": "W",
         "label": "StreetNamePreDirectional",
-        "start": 25,
-        "end": 26
+        "start": 25
       },
       {
         "text": "WACKER",
@@ -27331,32 +27194,27 @@
       {
         "text": "645",
         "label": "AddressNumber",
-        "start": 22,
-        "end": 25
+        "start": 22
       },
       {
         "text": "HARRISON",
         "label": "StreetName",
-        "start": 26,
-        "end": 34
+        "start": 26
       },
       {
         "text": "ST",
         "label": "StreetNamePostType",
-        "start": 35,
-        "end": 37
+        "start": 35
       },
       {
         "text": "645",
         "label": "AddressNumber",
-        "start": 38,
-        "end": 41
+        "start": 38
       },
       {
         "text": "HARRISON",
         "label": "StreetName",
-        "start": 42,
-        "end": 50
+        "start": 42
       },
       {
         "text": "STREET",
@@ -27484,8 +27342,7 @@
       {
         "text": "ST",
         "label": "StreetNamePostType",
-        "start": 25,
-        "end": 27
+        "start": 25
       },
       {
         "text": "STE",
@@ -27556,8 +27413,7 @@
       {
         "text": "N",
         "label": "StreetNamePreDirectional",
-        "start": 46,
-        "end": 47
+        "start": 46
       },
       {
         "text": "SAM HOUSTON",
@@ -27570,8 +27426,7 @@
       {
         "text": "E",
         "label": "StreetNamePostDirectional",
-        "start": 65,
-        "end": 66
+        "start": 65
       },
       {
         "text": "STE",
@@ -27584,8 +27439,7 @@
       {
         "text": "HOUSTON",
         "label": "PlaceName",
-        "start": 76,
-        "end": 83
+        "start": 76
       },
       {
         "text": "TX",
@@ -27697,8 +27551,7 @@
       {
         "text": "New York",
         "label": "StateName",
-        "start": 41,
-        "end": 49
+        "start": 41
       }
     ]
   },
@@ -27724,8 +27577,7 @@
       {
         "text": "1201",
         "label": "OccupancyIdentifier",
-        "start": 22,
-        "end": 26
+        "start": 22
       },
       {
         "text": "Brooklyn",
@@ -27767,14 +27619,12 @@
       {
         "text": "New York",
         "label": "PlaceName",
-        "start": 28,
-        "end": 36
+        "start": 28
       },
       {
         "text": "New York",
         "label": "StateName",
-        "start": 38,
-        "end": 46
+        "start": 38
       }
     ]
   },
@@ -28006,8 +27856,7 @@
       {
         "text": "N",
         "label": "StreetNamePostDirectional",
-        "start": 27,
-        "end": 28
+        "start": 27
       },
       {
         "text": "Corona",
@@ -28155,8 +28004,7 @@
       {
         "text": "W",
         "label": "StreetNamePostDirectional",
-        "start": 17,
-        "end": 18
+        "start": 17
       },
       {
         "text": "CSWY",
@@ -28424,8 +28272,7 @@
       {
         "text": "5",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 1
+        "start": 0
       },
       {
         "text": "Moon",
@@ -28504,8 +28351,7 @@
       {
         "text": "Bronx",
         "label": "PlaceName",
-        "start": 39,
-        "end": 44
+        "start": 39
       },
       {
         "text": "NY",
@@ -28523,8 +28369,7 @@
       {
         "text": "12345",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 5
+        "start": 0
       },
       {
         "text": "CLEVELAND",
@@ -28558,14 +28403,12 @@
       {
         "text": "12345",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 5
+        "start": 0
       },
       {
         "text": "CLEVELAND",
         "label": "StreetName",
-        "start": 6,
-        "end": 15
+        "start": 6
       },
       {
         "text": "BOULEVARD",
@@ -28578,8 +28421,7 @@
       {
         "text": "CLEVELAND",
         "label": "PlaceName",
-        "start": 32,
-        "end": 41
+        "start": 32
       },
       {
         "text": "OH",
@@ -28597,14 +28439,12 @@
       {
         "text": "12345",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 5
+        "start": 0
       },
       {
         "text": "TAMPA",
         "label": "StreetName",
-        "start": 6,
-        "end": 11
+        "start": 6
       },
       {
         "text": "ROAD",
@@ -28617,8 +28457,7 @@
       {
         "text": "TAMPA",
         "label": "PlaceName",
-        "start": 23,
-        "end": 28
+        "start": 23
       },
       {
         "text": "FL",
@@ -28636,14 +28475,12 @@
       {
         "text": "12345",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 5
+        "start": 0
       },
       {
         "text": "TAMPA",
         "label": "StreetName",
-        "start": 6,
-        "end": 11
+        "start": 6
       },
       {
         "text": "ROAD",
@@ -28656,8 +28493,7 @@
       {
         "text": "TAMPA",
         "label": "PlaceName",
-        "start": 23,
-        "end": 28
+        "start": 23
       },
       {
         "text": "FL",
@@ -28675,14 +28511,12 @@
       {
         "text": "12345",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 5
+        "start": 0
       },
       {
         "text": "CLEVELAND",
         "label": "StreetName",
-        "start": 6,
-        "end": 15
+        "start": 6
       },
       {
         "text": "BOULEVARD",
@@ -28695,8 +28529,7 @@
       {
         "text": "CLEVELAND",
         "label": "PlaceName",
-        "start": 32,
-        "end": 41
+        "start": 32
       },
       {
         "text": "OH",
@@ -28714,14 +28547,12 @@
       {
         "text": "12345",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 5
+        "start": 0
       },
       {
         "text": "TAMPA",
         "label": "StreetName",
-        "start": 6,
-        "end": 11
+        "start": 6
       },
       {
         "text": "ROAD",
@@ -28734,8 +28565,7 @@
       {
         "text": "TAMPA",
         "label": "PlaceName",
-        "start": 23,
-        "end": 28
+        "start": 23
       },
       {
         "text": "FL",
@@ -28753,14 +28583,12 @@
       {
         "text": "12345",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 5
+        "start": 0
       },
       {
         "text": "CLEVELAND",
         "label": "StreetName",
-        "start": 6,
-        "end": 15
+        "start": 6
       },
       {
         "text": "ROAD",
@@ -28773,8 +28601,7 @@
       {
         "text": "CLEVELAND",
         "label": "PlaceName",
-        "start": 27,
-        "end": 36
+        "start": 27
       },
       {
         "text": "OH",
@@ -28899,8 +28726,7 @@
       {
         "text": "al",
         "label": "StateName",
-        "start": 31,
-        "end": 33
+        "start": 31
       },
       {
         "text": "35967",
@@ -28918,8 +28744,7 @@
       {
         "text": "w",
         "label": "StreetNamePreDirectional",
-        "start": 6,
-        "end": 7
+        "start": 6
       },
       {
         "text": "dixie",
@@ -29023,8 +28848,7 @@
       {
         "text": "1",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 1
+        "start": 0
       },
       {
         "text": "dna",
@@ -29123,8 +28947,7 @@
       {
         "text": "st",
         "label": "StreetNamePostType",
-        "start": 45,
-        "end": 47
+        "start": 45
       },
       {
         "text": "chicago",
@@ -29344,8 +29167,7 @@
       {
         "text": "e",
         "label": "StreetNamePreDirectional",
-        "start": 5,
-        "end": 6
+        "start": 5
       },
       {
         "text": "cherry creek north",
@@ -29465,8 +29287,7 @@
       {
         "text": "in",
         "label": "StateName",
-        "start": 36,
-        "end": 38
+        "start": 36
       },
       {
         "text": "46206",
@@ -29550,8 +29371,7 @@
       {
         "text": "1",
         "label": "USPSBoxGroupID",
-        "start": 12,
-        "end": 13
+        "start": 12
       },
       {
         "text": "box",
@@ -29560,8 +29380,7 @@
       {
         "text": "1",
         "label": "USPSBoxID",
-        "start": 18,
-        "end": 19
+        "start": 18
       },
       {
         "text": "louisville",
@@ -29570,8 +29389,7 @@
       {
         "text": "il",
         "label": "StateName",
-        "start": 31,
-        "end": 33
+        "start": 31
       },
       {
         "text": "62858",
@@ -29758,8 +29576,7 @@
       {
         "text": "n",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "tatnall",
@@ -29891,8 +29708,7 @@
       {
         "text": "st",
         "label": "StreetNamePostType",
-        "start": 37,
-        "end": 39
+        "start": 37
       },
       {
         "text": "chicago",
@@ -29951,8 +29767,7 @@
       {
         "text": "3234",
         "label": "SubaddressIdentifier",
-        "start": 6,
-        "end": 10
+        "start": 6
       },
       {
         "text": "p.o. box",
@@ -30051,8 +29866,7 @@
       {
         "text": "fl",
         "label": "StateName",
-        "start": 35,
-        "end": 37
+        "start": 35
       },
       {
         "text": "33407",
@@ -30078,8 +29892,7 @@
       {
         "text": "e",
         "label": "StreetNamePostDirectional",
-        "start": 13,
-        "end": 14
+        "start": 13
       },
       {
         "text": "toms river",
@@ -30187,8 +30000,7 @@
       {
         "text": "ok",
         "label": "StateName",
-        "start": 49,
-        "end": 51
+        "start": 49
       },
       {
         "text": "73170",
@@ -30243,8 +30055,7 @@
       {
         "text": "31",
         "label": "StreetName",
-        "start": 10,
-        "end": 12
+        "start": 10
       },
       {
         "text": "w.",
@@ -30443,8 +30254,7 @@
       {
         "text": "n",
         "label": "StreetNamePreDirectional",
-        "start": 21,
-        "end": 22
+        "start": 21
       },
       {
         "text": "flagler",
@@ -30461,8 +30271,7 @@
       {
         "text": "fl",
         "label": "StateName",
-        "start": 50,
-        "end": 52
+        "start": 50
       },
       {
         "text": "33407",
@@ -30480,8 +30289,7 @@
       {
         "text": "n",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "800",
@@ -30527,8 +30335,7 @@
       {
         "text": "s",
         "label": "StreetNamePostDirectional",
-        "start": 25,
-        "end": 26
+        "start": 25
       },
       {
         "text": "mobile",
@@ -30570,8 +30377,7 @@
       {
         "text": "il",
         "label": "StateName",
-        "start": 25,
-        "end": 27
+        "start": 25
       },
       {
         "text": "61326",
@@ -30643,8 +30449,7 @@
       {
         "text": "n",
         "label": "StreetNamePreDirectional",
-        "start": 5,
-        "end": 6
+        "start": 5
       },
       {
         "text": "sepulveda",
@@ -30682,8 +30487,7 @@
       {
         "text": "s",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "500",
@@ -30692,8 +30496,7 @@
       {
         "text": "e",
         "label": "StreetNamePostDirectional",
-        "start": 10,
-        "end": 11
+        "start": 10
       },
       {
         "text": "floor",
@@ -30702,8 +30505,7 @@
       {
         "text": "2",
         "label": "SubaddressIdentifier",
-        "start": 18,
-        "end": 19
+        "start": 18
       },
       {
         "text": "salt lake city",
@@ -30770,8 +30572,7 @@
       {
         "text": "s",
         "label": "StreetNamePostDirectional",
-        "start": 11,
-        "end": 12
+        "start": 11
       },
       {
         "text": "# 105",
@@ -30809,8 +30610,7 @@
       {
         "text": "w",
         "label": "StreetNamePostDirectional",
-        "start": 18,
-        "end": 19
+        "start": 18
       },
       {
         "text": "707",
@@ -30840,8 +30640,7 @@
       {
         "text": "n",
         "label": "StreetNamePreDirectional",
-        "start": 5,
-        "end": 6
+        "start": 5
       },
       {
         "text": "main",
@@ -30879,8 +30678,7 @@
       {
         "text": "n",
         "label": "StreetNamePreDirectional",
-        "start": 5,
-        "end": 6
+        "start": 5
       },
       {
         "text": "stemmons",
@@ -30893,8 +30691,7 @@
       {
         "text": "ste",
         "label": "OccupancyType",
-        "start": 20,
-        "end": 23
+        "start": 20
       },
       {
         "text": "5010",
@@ -30944,8 +30741,7 @@
       {
         "text": "1",
         "label": "USPSBoxGroupID",
-        "start": 16,
-        "end": 17
+        "start": 16
       },
       {
         "text": "box",
@@ -31069,8 +30865,7 @@
       {
         "text": "ne",
         "label": "StateName",
-        "start": 34,
-        "end": 36
+        "start": 34
       },
       {
         "text": "69162",
@@ -31166,8 +30961,7 @@
       {
         "text": "5",
         "label": "StreetName",
-        "start": 13,
-        "end": 14
+        "start": 13
       },
       {
         "text": "ste",
@@ -31238,14 +31032,12 @@
       {
         "text": "e",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "castle pines",
         "label": "StreetName",
-        "start": 6,
-        "end": 18
+        "start": 6
       },
       {
         "text": "pkwy",
@@ -31258,8 +31050,7 @@
       {
         "text": "castle pines",
         "label": "PlaceName",
-        "start": 30,
-        "end": 42
+        "start": 30
       },
       {
         "text": "co",
@@ -31375,8 +31166,7 @@
       {
         "text": "1",
         "label": "SubaddressIdentifier",
-        "start": 30,
-        "end": 31
+        "start": 30
       },
       {
         "text": "san francisco",
@@ -31406,8 +31196,7 @@
       {
         "text": "d",
         "label": "StreetNamePostType",
-        "start": 12,
-        "end": 13
+        "start": 12
       },
       {
         "text": "ste",
@@ -31441,8 +31230,7 @@
       {
         "text": "e",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "market",
@@ -31492,8 +31280,7 @@
       {
         "text": "5",
         "label": "StreetName",
-        "start": 13,
-        "end": 14
+        "start": 13
       },
       {
         "text": "suite",
@@ -31535,8 +31322,7 @@
       {
         "text": "n",
         "label": "StreetNamePostDirectional",
-        "start": 13,
-        "end": 14
+        "start": 13
       },
       {
         "text": "fair lawn",
@@ -31648,8 +31434,7 @@
       {
         "text": "5",
         "label": "SubaddressIdentifier",
-        "start": 26,
-        "end": 27
+        "start": 26
       },
       {
         "text": "bay harbor island",
@@ -31658,8 +31443,7 @@
       {
         "text": "fl",
         "label": "StateName",
-        "start": 46,
-        "end": 48
+        "start": 46
       },
       {
         "text": "33154",
@@ -32027,8 +31811,7 @@
       {
         "text": "rd",
         "label": "StreetNamePostType",
-        "start": 23,
-        "end": 25
+        "start": 23
       },
       {
         "text": "# 221",
@@ -32074,8 +31857,7 @@
       {
         "text": "b",
         "label": "SubaddressIdentifier",
-        "start": 21,
-        "end": 22
+        "start": 21
       },
       {
         "text": "# 670",
@@ -32088,8 +31870,7 @@
       {
         "text": "ok",
         "label": "StateName",
-        "start": 43,
-        "end": 45
+        "start": 43
       },
       {
         "text": "73112",
@@ -32103,74 +31884,62 @@
       {
         "text": "445",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 3
+        "start": 0
       },
       {
         "text": "church",
         "label": "StreetName",
-        "start": 4,
-        "end": 10
+        "start": 4
       },
       {
         "text": "street",
         "label": "StreetNamePostType",
-        "start": 11,
-        "end": 17
+        "start": 11
       },
       {
         "text": "san francisco",
         "label": "PlaceName",
-        "start": 18,
-        "end": 31
+        "start": 18
       },
       {
         "text": "ca",
         "label": "StateName",
-        "start": 33,
-        "end": 35
+        "start": 33
       },
       {
         "text": "94114",
         "label": "ZipCode",
-        "start": 37,
-        "end": 42
+        "start": 37
       },
       {
         "text": "san francisco",
         "label": "PlaceName",
-        "start": 43,
-        "end": 56
+        "start": 43
       },
       {
         "text": "445",
         "label": "AddressNumber",
-        "start": 57,
-        "end": 60
+        "start": 57
       },
       {
         "text": "church",
         "label": "StreetName",
-        "start": 61,
-        "end": 67
+        "start": 61
       },
       {
         "text": "street",
         "label": "StreetNamePostType",
-        "start": 68,
-        "end": 74
+        "start": 68
       },
       {
         "text": "ca",
         "label": "StateName",
-        "start": 75,
-        "end": 77
+        "start": 75
       },
       {
         "text": "94114",
         "label": "ZipCode",
-        "start": 78,
-        "end": 83
+        "start": 78
       }
     ]
   },
@@ -32213,8 +31982,7 @@
       {
         "text": "901",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 3
+        "start": 0
       },
       {
         "text": "janesville",
@@ -32231,8 +31999,7 @@
       {
         "text": "901",
         "label": "USPSBoxID",
-        "start": 26,
-        "end": 29
+        "start": 26
       },
       {
         "text": "ft atkinson",
@@ -32390,8 +32157,7 @@
       {
         "text": "rd",
         "label": "StreetNamePostType",
-        "start": 14,
-        "end": 16
+        "start": 14
       },
       {
         "text": "box",
@@ -32519,8 +32285,7 @@
       {
         "text": "ste",
         "label": "OccupancyType",
-        "start": 13,
-        "end": 16
+        "start": 13
       },
       {
         "text": "545",
@@ -32533,8 +32298,7 @@
       {
         "text": "ca",
         "label": "StateName",
-        "start": 31,
-        "end": 33
+        "start": 31
       },
       {
         "text": "93536-5229",
@@ -32618,14 +32382,12 @@
       {
         "text": "e",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "merritt island",
         "label": "StreetName",
-        "start": 6,
-        "end": 20
+        "start": 6
       },
       {
         "text": "cswy",
@@ -32638,8 +32400,7 @@
       {
         "text": "merritt island",
         "label": "PlaceName",
-        "start": 35,
-        "end": 49
+        "start": 35
       },
       {
         "text": "fl",
@@ -32657,8 +32418,7 @@
       {
         "text": "4193",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 4
+        "start": 0
       },
       {
         "text": "solutions",
@@ -32762,8 +32522,7 @@
       {
         "text": "n",
         "label": "StreetNamePreDirectional",
-        "start": 5,
-        "end": 6
+        "start": 5
       },
       {
         "text": "dearborn",
@@ -32965,8 +32724,7 @@
       {
         "text": "ok",
         "label": "StateName",
-        "start": 50,
-        "end": 52
+        "start": 50
       },
       {
         "text": "73196",
@@ -33099,8 +32857,7 @@
       {
         "text": "box",
         "label": "SubaddressType",
-        "start": 0,
-        "end": 3
+        "start": 0
       },
       {
         "text": "# 2806",
@@ -33245,8 +33002,7 @@
       {
         "text": "n",
         "label": "StreetNamePostDirectional",
-        "start": 16,
-        "end": 17
+        "start": 16
       },
       {
         "text": "rock hill",
@@ -33288,8 +33044,7 @@
       {
         "text": "2",
         "label": "OccupancyIdentifier",
-        "start": 29,
-        "end": 30
+        "start": 29
       },
       {
         "text": "midlothian",
@@ -33352,8 +33107,7 @@
       {
         "text": "n",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "jefferson",
@@ -33366,8 +33120,7 @@
       {
         "text": "1",
         "label": "USPSBoxGroupID",
-        "start": 19,
-        "end": 20
+        "start": 19
       },
       {
         "text": "box",
@@ -33561,8 +33314,7 @@
       {
         "text": "il",
         "label": "StateName",
-        "start": 46,
-        "end": 48
+        "start": 46
       },
       {
         "text": "60007",
@@ -33576,8 +33328,7 @@
       {
         "text": "1",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 1
+        "start": 0
       },
       {
         "text": "dna",
@@ -33619,8 +33370,7 @@
       {
         "text": "n",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "main",
@@ -33707,8 +33457,7 @@
       {
         "text": "ok",
         "label": "StateName",
-        "start": 63,
-        "end": 65
+        "start": 63
       },
       {
         "text": "73126",
@@ -33734,8 +33483,7 @@
       {
         "text": "st",
         "label": "StreetNamePostType",
-        "start": 13,
-        "end": 15
+        "start": 13
       },
       {
         "text": "east hazel crest",
@@ -33859,8 +33607,7 @@
       {
         "text": "ma",
         "label": "StateName",
-        "start": 39,
-        "end": 41
+        "start": 39
       },
       {
         "text": "02653",
@@ -33923,8 +33670,7 @@
       {
         "text": "n",
         "label": "StreetNamePostDirectional",
-        "start": 12,
-        "end": 13
+        "start": 12
       },
       {
         "text": "# b",
@@ -33954,8 +33700,7 @@
       {
         "text": "n",
         "label": "StreetNamePreDirectional",
-        "start": 5,
-        "end": 6
+        "start": 5
       },
       {
         "text": "stemmons",
@@ -33968,8 +33713,7 @@
       {
         "text": "ste",
         "label": "OccupancyType",
-        "start": 25,
-        "end": 28
+        "start": 25
       },
       {
         "text": "5010",
@@ -34015,8 +33759,7 @@
       {
         "text": "s",
         "label": "StreetNamePostDirectional",
-        "start": 11,
-        "end": 12
+        "start": 11
       },
       {
         "text": "jacksonville beach",
@@ -34470,8 +34213,7 @@
       {
         "text": "s",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "state road",
@@ -34603,8 +34345,7 @@
       {
         "text": "il",
         "label": "StateName",
-        "start": 28,
-        "end": 30
+        "start": 28
       },
       {
         "text": "62844",
@@ -34622,8 +34363,7 @@
       {
         "text": "e",
         "label": "StreetNamePreDirectional",
-        "start": 5,
-        "end": 6
+        "start": 5
       },
       {
         "text": "treasure",
@@ -34954,8 +34694,7 @@
       {
         "text": "box",
         "label": "SubaddressType",
-        "start": 16,
-        "end": 19
+        "start": 16
       },
       {
         "text": "# 0123",
@@ -35018,8 +34757,7 @@
       {
         "text": "rd",
         "label": "StreetNamePostType",
-        "start": 14,
-        "end": 16
+        "start": 14
       },
       {
         "text": "north litte rock",
@@ -35028,8 +34766,7 @@
       {
         "text": "ar",
         "label": "StateName",
-        "start": 34,
-        "end": 36
+        "start": 34
       },
       {
         "text": "72117",
@@ -35117,8 +34854,7 @@
       {
         "text": "n",
         "label": "StreetNamePostDirectional",
-        "start": 27,
-        "end": 28
+        "start": 27
       },
       {
         "text": "delray beach",
@@ -35160,8 +34896,7 @@
       {
         "text": "ona",
         "label": "PlaceName",
-        "start": 41,
-        "end": 44
+        "start": 41
       },
       {
         "text": "wv",
@@ -35397,8 +35132,7 @@
       {
         "text": "75",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 2
+        "start": 0
       },
       {
         "text": "remittance",
@@ -35514,8 +35248,7 @@
       {
         "text": "6",
         "label": "StreetName",
-        "start": 18,
-        "end": 19
+        "start": 18
       },
       {
         "text": "ste",
@@ -35850,8 +35583,7 @@
       {
         "text": "n",
         "label": "StreetNamePostDirectional",
-        "start": 13,
-        "end": 14
+        "start": 13
       },
       {
         "text": "cedar grove",
@@ -35951,8 +35683,7 @@
       {
         "text": "n",
         "label": "StreetNamePostDirectional",
-        "start": 21,
-        "end": 22
+        "start": 21
       },
       {
         "text": "rancho cucamonga",
@@ -35961,8 +35692,7 @@
       {
         "text": "ca",
         "label": "StateName",
-        "start": 40,
-        "end": 42
+        "start": 40
       },
       {
         "text": "91730",
@@ -36013,8 +35743,7 @@
       {
         "text": "1",
         "label": "StreetName",
-        "start": 9,
-        "end": 10
+        "start": 9
       },
       {
         "text": "st",
@@ -36332,8 +36061,7 @@
       {
         "text": "n",
         "label": "StreetNamePreDirectional",
-        "start": 5,
-        "end": 6
+        "start": 5
       },
       {
         "text": "stemmons",
@@ -36391,8 +36119,7 @@
       {
         "text": "n",
         "label": "StreetNamePostDirectional",
-        "start": 13,
-        "end": 14
+        "start": 13
       },
       {
         "text": "saint petersburg",
@@ -36480,8 +36207,7 @@
       {
         "text": "pines",
         "label": "StreetName",
-        "start": 6,
-        "end": 11
+        "start": 6
       },
       {
         "text": "blvd",
@@ -36552,8 +36278,7 @@
       {
         "text": "2366",
         "label": "SubaddressIdentifier",
-        "start": 5,
-        "end": 9
+        "start": 5
       },
       {
         "text": "p o box",
@@ -36665,8 +36390,7 @@
       {
         "text": "padre",
         "label": "StreetName",
-        "start": 5,
-        "end": 10
+        "start": 5
       },
       {
         "text": "blvd",
@@ -36766,8 +36490,7 @@
       {
         "text": "e",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "market",
@@ -36833,8 +36556,7 @@
       {
         "text": "tn",
         "label": "StateName",
-        "start": 60,
-        "end": 62
+        "start": 60
       },
       {
         "text": "37243",
@@ -36893,8 +36615,7 @@
       {
         "text": "st",
         "label": "OccupancyType",
-        "start": 18,
-        "end": 20
+        "start": 18
       },
       {
         "text": "1400",
@@ -37130,8 +36851,7 @@
       {
         "text": "fl",
         "label": "StateName",
-        "start": 39,
-        "end": 41
+        "start": 39
       },
       {
         "text": "33402",
@@ -37239,8 +36959,7 @@
       {
         "text": "tn",
         "label": "StateName",
-        "start": 58,
-        "end": 60
+        "start": 58
       },
       {
         "text": "37243",
@@ -37262,8 +36981,7 @@
       {
         "text": "Dr",
         "label": "StreetNamePostType",
-        "start": 16,
-        "end": 18
+        "start": 16
       }
     ]
   },
@@ -37323,8 +37041,7 @@
       {
         "text": "STE",
         "label": "OccupancyType",
-        "start": 20,
-        "end": 23
+        "start": 20
       },
       {
         "text": "402",
@@ -37337,8 +37054,7 @@
       {
         "text": "IL",
         "label": "StateName",
-        "start": 46,
-        "end": 48
+        "start": 46
       },
       {
         "text": "60007",
@@ -37403,8 +37119,7 @@
       {
         "text": "1",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 1
+        "start": 0
       },
       {
         "text": "Washington Square Village",
@@ -37538,8 +37253,7 @@
       {
         "text": "3",
         "label": "StreetName",
-        "start": 22,
-        "end": 23
+        "start": 22
       }
     ]
   },
@@ -37625,8 +37339,7 @@
       {
         "text": "n",
         "label": "StreetNamePostDirectional",
-        "start": 22,
-        "end": 23
+        "start": 22
       },
       {
         "text": "east moline",
@@ -37665,8 +37378,7 @@
       {
         "text": "1",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 1
+        "start": 0
       },
       {
         "text": "Washington Square Village",
@@ -37721,8 +37433,7 @@
       {
         "text": "E",
         "label": "StreetNamePreDirectional",
-        "start": 5,
-        "end": 6
+        "start": 5
       },
       {
         "text": "PLEASANT RUN",
@@ -37768,8 +37479,7 @@
       {
         "text": "22",
         "label": "OccupancyIdentifier",
-        "start": 27,
-        "end": 29
+        "start": 27
       }
     ]
   },
@@ -37787,8 +37497,7 @@
       {
         "text": "3",
         "label": "USPSBoxID",
-        "start": 13,
-        "end": 14
+        "start": 13
       },
       {
         "text": "BOX",
@@ -37797,8 +37506,7 @@
       {
         "text": "9",
         "label": "USPSBoxID",
-        "start": 19,
-        "end": 20
+        "start": 19
       },
       {
         "text": "CANTON",
@@ -37944,8 +37652,7 @@
       {
         "text": "2",
         "label": "OccupancyIdentifier",
-        "start": 19,
-        "end": 20
+        "start": 19
       }
     ]
   },
@@ -38525,8 +38232,7 @@
       {
         "text": "N",
         "label": "StreetNamePreDirectional",
-        "start": 5,
-        "end": 6
+        "start": 5
       },
       {
         "text": "HIDDEN",
@@ -38593,8 +38299,7 @@
       {
         "text": "HUNTINGDON",
         "label": "StreetName",
-        "start": 5,
-        "end": 15
+        "start": 5
       },
       {
         "text": "PIKE",
@@ -39157,8 +38862,7 @@
       {
         "text": "BEAR CREEK",
         "label": "StreetName",
-        "start": 5,
-        "end": 15
+        "start": 5
       },
       {
         "text": "BLVD",
@@ -39776,8 +39480,7 @@
       {
         "text": "ST",
         "label": "StreetNamePostType",
-        "start": 24,
-        "end": 26
+        "start": 24
       },
       {
         "text": "STANLEY",
@@ -39848,8 +39551,7 @@
       {
         "text": "2",
         "label": "OccupancyIdentifier",
-        "start": 23,
-        "end": 24
+        "start": 23
       },
       {
         "text": "SHELBY",
@@ -39875,8 +39577,7 @@
       {
         "text": "RD",
         "label": "StreetNamePostType",
-        "start": 11,
-        "end": 13
+        "start": 11
       },
       {
         "text": "LIBERTY GROVE",
@@ -39885,8 +39586,7 @@
       {
         "text": "RD",
         "label": "StreetNamePostType",
-        "start": 28,
-        "end": 30
+        "start": 28
       },
       {
         "text": "NORTH WILKESBORO",
@@ -40082,8 +39782,7 @@
       {
         "text": "E",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "SUMTER",
@@ -40104,8 +39803,7 @@
       {
         "text": "1",
         "label": "OccupancyIdentifier",
-        "start": 22,
-        "end": 23
+        "start": 22
       },
       {
         "text": "SHELBY",
@@ -40152,8 +39850,7 @@
       {
         "text": "S",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "WASHINGTON",
@@ -40261,8 +39958,7 @@
       {
         "text": "A",
         "label": "OccupancyIdentifier",
-        "start": 23,
-        "end": 24
+        "start": 23
       },
       {
         "text": "GREENSBORO",
@@ -40288,8 +39984,7 @@
       {
         "text": "RD",
         "label": "StreetNamePostType",
-        "start": 11,
-        "end": 13
+        "start": 11
       },
       {
         "text": "LIBERTY GROVE",
@@ -40298,8 +39993,7 @@
       {
         "text": "RD",
         "label": "StreetNamePostType",
-        "start": 28,
-        "end": 30
+        "start": 28
       },
       {
         "text": "NORTH WILKESBORO",
@@ -40329,8 +40023,7 @@
       {
         "text": "S",
         "label": "StreetNamePostDirectional",
-        "start": 17,
-        "end": 18
+        "start": 17
       },
       {
         "text": "YOUNGSVILLE",
@@ -40385,8 +40078,7 @@
       {
         "text": "S",
         "label": "StreetNamePostDirectional",
-        "start": 17,
-        "end": 18
+        "start": 17
       },
       {
         "text": "LOUISBURG",
@@ -40478,8 +40170,7 @@
       {
         "text": "RD",
         "label": "StreetNamePostType",
-        "start": 11,
-        "end": 13
+        "start": 11
       },
       {
         "text": "LIBERTY GROVE",
@@ -40488,8 +40179,7 @@
       {
         "text": "RD",
         "label": "StreetNamePostType",
-        "start": 28,
-        "end": 30
+        "start": 28
       },
       {
         "text": "NORTH WILKESBORO",
@@ -40552,8 +40242,7 @@
       {
         "text": "3",
         "label": "OccupancyIdentifier",
-        "start": 23,
-        "end": 24
+        "start": 23
       },
       {
         "text": "ELIZABETHTOWN",
@@ -40629,8 +40318,7 @@
       {
         "text": "ST",
         "label": "StreetNamePostType",
-        "start": 10,
-        "end": 12
+        "start": 10
       },
       {
         "text": "NW",
@@ -40685,8 +40373,7 @@
       {
         "text": "E",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "ZION CHURCH",
@@ -40707,8 +40394,7 @@
       {
         "text": "A",
         "label": "OccupancyIdentifier",
-        "start": 27,
-        "end": 28
+        "start": 27
       },
       {
         "text": "SHELBY",
@@ -40730,8 +40416,7 @@
       {
         "text": "E",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "MCKAY",
@@ -40777,8 +40462,7 @@
       {
         "text": "RD",
         "label": "StreetNamePostType",
-        "start": 11,
-        "end": 13
+        "start": 11
       },
       {
         "text": "LIBERTY GROVE",
@@ -40787,8 +40471,7 @@
       {
         "text": "RD",
         "label": "StreetNamePostType",
-        "start": 28,
-        "end": 30
+        "start": 28
       },
       {
         "text": "NORTH WILKESBORO",
@@ -40814,8 +40497,7 @@
       {
         "text": "ST",
         "label": "StreetNamePostType",
-        "start": 23,
-        "end": 25
+        "start": 23
       },
       {
         "text": "WINSTON SALEM",
@@ -40903,8 +40585,7 @@
       {
         "text": "9",
         "label": "OccupancyIdentifier",
-        "start": 22,
-        "end": 23
+        "start": 22
       },
       {
         "text": "AYDLETT",
@@ -41076,8 +40757,7 @@
       {
         "text": "S",
         "label": "StreetNamePostDirectional",
-        "start": 23,
-        "end": 24
+        "start": 23
       }
     ]
   },
@@ -41430,8 +41110,7 @@
       {
         "text": "N",
         "label": "StreetNamePostDirectional",
-        "start": 39,
-        "end": 40
+        "start": 39
       }
     ]
   },
@@ -41605,8 +41284,7 @@
       {
         "text": "W",
         "label": "StreetNamePostDirectional",
-        "start": 40,
-        "end": 41
+        "start": 40
       }
     ]
   },
@@ -41641,8 +41319,7 @@
       {
         "text": "ST",
         "label": "StreetNamePostType",
-        "start": 26,
-        "end": 28
+        "start": 26
       }
     ]
   },
@@ -41656,8 +41333,7 @@
       {
         "text": "S",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "W S YOUNG",
@@ -41759,8 +41435,7 @@
       {
         "text": "S",
         "label": "StreetNamePreDirectional",
-        "start": 5,
-        "end": 6
+        "start": 5
       },
       {
         "text": "General McMullen",
@@ -41826,8 +41501,7 @@
       {
         "text": "Houston",
         "label": "PlaceName",
-        "start": 35,
-        "end": 42
+        "start": 35
       },
       {
         "text": "TX",
@@ -41951,8 +41625,7 @@
       {
         "text": "3",
         "label": "OccupancyIdentifier",
-        "start": 22,
-        "end": 23
+        "start": 22
       },
       {
         "text": "COVINGTON",
@@ -42221,8 +41894,7 @@
       {
         "text": "Kansas City",
         "label": "PlaceName",
-        "start": 65,
-        "end": 76
+        "start": 65
       },
       {
         "text": "KS",

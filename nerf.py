@@ -101,26 +101,22 @@ class EntSpec:
     text: str
     label: str
     start: int | None = None
-    end: int | None = None
 
     @classmethod
     def from_span(cls, span: Span):
         doc = span.doc
         if doc.text.count(span.text) == 1:
             start = None
-            end = None
         else:
             start = span.start_char
-            end = span.end_char
-        return cls(label=span.label_, text=span.text, start=start, end=end)
+        return cls(label=span.label_, text=span.text, start=start)
 
     def to_span(self, doc: Doc) -> Span:
         if self.start is None:
             start = doc.text.index(self.text)
-            end = start + len(self.text)
         else:
             start = self.start
-            end = self.end
+        end = start + len(self.text)
         return doc.char_span(start, end, label=self.label)
 
     def to_dict(self) -> dict:
@@ -130,7 +126,6 @@ class EntSpec:
         }
         if self.start is not None:
             d["start"] = self.start
-            d["end"] = self.end
         return d
 
 

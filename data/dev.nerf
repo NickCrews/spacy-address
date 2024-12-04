@@ -25,8 +25,7 @@
       {
         "text": "3",
         "label": "OccupancyIdentifier",
-        "start": 23,
-        "end": 24
+        "start": 23
       }
     ]
   },
@@ -364,8 +363,7 @@
       {
         "text": "3",
         "label": "OccupancyIdentifier",
-        "start": 25,
-        "end": 26
+        "start": 25
       }
     ]
   },
@@ -575,8 +573,7 @@
       {
         "text": "123",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 3
+        "start": 0
       },
       {
         "text": "W",
@@ -668,8 +665,7 @@
       {
         "text": "S",
         "label": "StreetNamePreDirectional",
-        "start": 47,
-        "end": 48
+        "start": 47
       },
       {
         "text": "WACKER",
@@ -690,14 +686,12 @@
       {
         "text": "CHICAGO",
         "label": "PlaceName",
-        "start": 68,
-        "end": 75
+        "start": 68
       },
       {
         "text": "IL",
         "label": "StateName",
-        "start": 76,
-        "end": 78
+        "start": 76
       },
       {
         "text": "60606",
@@ -752,8 +746,7 @@
       {
         "text": "w",
         "label": "StreetNamePreDirectional",
-        "start": 18,
-        "end": 19
+        "start": 18
       },
       {
         "text": "Blackhawk",
@@ -799,8 +792,7 @@
       {
         "text": "W",
         "label": "StreetNamePreDirectional",
-        "start": 35,
-        "end": 36
+        "start": 35
       },
       {
         "text": "Wacker",
@@ -830,8 +822,7 @@
       {
         "text": "100",
         "label": "AddressNumber",
-        "start": 0,
-        "end": 3
+        "start": 0
       },
       {
         "text": "Gold",
@@ -1135,8 +1126,7 @@
       {
         "text": "St",
         "label": "StreetNamePostType",
-        "start": 12,
-        "end": 14
+        "start": 12
       },
       {
         "text": "Ste",
@@ -1450,8 +1440,7 @@
       {
         "text": "fl",
         "label": "StateName",
-        "start": 40,
-        "end": 42
+        "start": 40
       },
       {
         "text": "33409",
@@ -1543,8 +1532,7 @@
       {
         "text": "n",
         "label": "StreetNamePostDirectional",
-        "start": 22,
-        "end": 23
+        "start": 22
       },
       {
         "text": "east moline",
@@ -1603,8 +1591,7 @@
       {
         "text": "3234",
         "label": "SubaddressIdentifier",
-        "start": 5,
-        "end": 9
+        "start": 5
       },
       {
         "text": "p o box",
@@ -1679,8 +1666,7 @@
       {
         "text": "n",
         "label": "StreetNamePostDirectional",
-        "start": 12,
-        "end": 13
+        "start": 12
       },
       {
         "text": "saint petersburg",
@@ -1842,8 +1828,7 @@
       {
         "text": "n",
         "label": "StreetNamePostDirectional",
-        "start": 17,
-        "end": 18
+        "start": 17
       },
       {
         "text": "ft payne",
@@ -1869,8 +1854,7 @@
       {
         "text": "33701",
         "label": "USPSBoxID",
-        "start": 7,
-        "end": 12
+        "start": 7
       },
       {
         "text": "dept",
@@ -1879,8 +1863,7 @@
       {
         "text": "33701",
         "label": "SubaddressIdentifier",
-        "start": 18,
-        "end": 23
+        "start": 18
       },
       {
         "text": "sn francisco",
@@ -1927,8 +1910,7 @@
       {
         "text": "s",
         "label": "StreetNamePreDirectional",
-        "start": 3,
-        "end": 4
+        "start": 3
       },
       {
         "text": "jackson",
@@ -1970,8 +1952,7 @@
       {
         "text": "1",
         "label": "StreetName",
-        "start": 17,
-        "end": 18
+        "start": 17
       },
       {
         "text": "ste",
@@ -2079,8 +2060,7 @@
       {
         "text": "in",
         "label": "StateName",
-        "start": 40,
-        "end": 42
+        "start": 40
       },
       {
         "text": "46206",
@@ -2098,8 +2078,7 @@
       {
         "text": "s",
         "label": "StreetNamePreDirectional",
-        "start": 5,
-        "end": 6
+        "start": 5
       },
       {
         "text": "university",
@@ -2426,8 +2405,7 @@
       {
         "text": "CA",
         "label": "StateName",
-        "start": 29,
-        "end": 31
+        "start": 29
       },
       {
         "text": "92646-4817",
@@ -2474,8 +2452,7 @@
       {
         "text": "N",
         "label": "StreetNamePreDirectional",
-        "start": 4,
-        "end": 5
+        "start": 4
       },
       {
         "text": "CATHERINE",
@@ -2542,8 +2519,7 @@
       {
         "text": "RD",
         "label": "StreetNamePostType",
-        "start": 12,
-        "end": 14
+        "start": 12
       },
       {
         "text": "GLOUCESTER PT",
@@ -2569,8 +2545,7 @@
       {
         "text": "BEAR CREEK",
         "label": "StreetName",
-        "start": 5,
-        "end": 15
+        "start": 5
       },
       {
         "text": "BLVD",
@@ -2604,8 +2579,7 @@
       {
         "text": "RD",
         "label": "StreetNamePostType",
-        "start": 11,
-        "end": 13
+        "start": 11
       },
       {
         "text": "LIBERTY GROVE",
@@ -2614,8 +2588,7 @@
       {
         "text": "RD",
         "label": "StreetNamePostType",
-        "start": 28,
-        "end": 30
+        "start": 28
       },
       {
         "text": "NORTH WILKESBORO",
@@ -2666,8 +2639,7 @@
       {
         "text": "E",
         "label": "StreetNamePreDirectional",
-        "start": 2,
-        "end": 3
+        "start": 2
       },
       {
         "text": "WARDELL",
@@ -2688,8 +2660,7 @@
       {
         "text": "3",
         "label": "OccupancyIdentifier",
-        "start": 21,
-        "end": 22
+        "start": 21
       },
       {
         "text": "PEMBROKE",
@@ -2963,6 +2934,43 @@
       },
       {
         "text": "16933",
+        "label": "ZipCode"
+      }
+    ]
+  },
+  {
+    "text": "900 Business 150 STE 3, Mansfield, PA 19402",
+    "ents": [
+      {
+        "text": "900",
+        "label": "AddressNumber"
+      },
+      {
+        "text": "Business",
+        "label": "StreetNamePreType"
+      },
+      {
+        "text": "150",
+        "label": "StreetName"
+      },
+      {
+        "text": "STE",
+        "label": "OccupancyType"
+      },
+      {
+        "text": "3",
+        "label": "OccupancyIdentifier"
+      },
+      {
+        "text": "Mansfield",
+        "label": "PlaceName"
+      },
+      {
+        "text": "PA",
+        "label": "StateName"
+      },
+      {
+        "text": "19402",
         "label": "ZipCode"
       }
     ]
